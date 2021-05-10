@@ -23,6 +23,7 @@ public class SingleTon06 {
     }
 
     private static SingleTon06 instance;
+
     public static final SingleTon06 getInstance(){
 
         /**
@@ -31,7 +32,7 @@ public class SingleTon06 {
          * 如果一直没有获取到值(锁） 就会进入死循环去等待
          */
         for(;;){
-            SingleTon06 instance = INSTANCE.get();
+            instance = INSTANCE.get();
             if(instance!=null) return instance;
             INSTANCE.compareAndSet(null,new SingleTon06());
             return INSTANCE.get();
