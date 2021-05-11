@@ -24,6 +24,16 @@ public class SingleTon06 {
 
     private static SingleTon06 instance;
 
+
+    /**
+     * 被final修饰的方法 不能扩展，不允许进行重写
+     * final修饰类无法被继承
+     * 将所有变量设为私有
+     * 没有set方法
+     * 通过构造器初始化所有成员，进行深拷贝
+     * get方法调用时，克隆对象，返回对象的拷贝
+     * @return
+     */
     public static final SingleTon06 getInstance(){
 
         /**
