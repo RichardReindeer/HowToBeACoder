@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
 import java.nio.channels.*;
+import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.util.Iterator;
 
@@ -79,7 +80,7 @@ public class NIOServer {
         //SocketChannel 和 SocketableChannel 可以强转?
         SocketChannel socketChannel = (SocketChannel) key.channel();
         //创建读取的缓冲区
-        ByteBuffer byteBuffer = ByteBuffer.allocate(10);
+        ByteBuffer byteBuffer = ByteBuffer.allocate(1024*4);
         socketChannel.read(byteBuffer);
         byte[] data = byteBuffer.array();
         //trim方法作用时取除前后空白

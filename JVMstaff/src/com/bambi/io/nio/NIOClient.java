@@ -75,7 +75,7 @@ public class NIOClient {
         //SocketChannel 和 SocketableChannel要强转
         SocketChannel socketChannel = (SocketChannel) key.channel();
         //创建读取的字节缓冲区
-        ByteBuffer byteBuffer = ByteBuffer.allocate(10);
+        ByteBuffer byteBuffer = ByteBuffer.allocate(1024*4);
         socketChannel.read(byteBuffer);
         //将字节缓冲池转换为array数组
         byte[] data = byteBuffer.array();
