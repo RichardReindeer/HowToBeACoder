@@ -11,6 +11,24 @@ import java.util.LinkedList;
  * nio  站在java的角度  n是new的意思
  * 站在内核的角度 n是non block 的意思
  *
+ *
+ * ServerSocketChannel
+ * Java Nio 中ServerSocketChannel 是一个可以监听新进来的TCP连接的通道，
+ * 就像bio中的ServerSocket一样
+ *
+ *
+ * ServerSocketChannel方法调用:
+ *  ServerSocketChannel open()   获取一个ServerSocket通道 返回一个ServerSocketChannel
+ *
+ *  void configureBlocking()  设置通道是否阻塞，false为非阻塞
+ *
+ *   socket().bind(InetSocketAddress(int port))  将通道对应的ServerSocket绑定到对应端口上
+ *
+ *   ServerSocketChannel accept() 通过accept来监听新进来的连接 返回值是新加进来的连接的SocketChannel
+ *   因此accept会一直阻塞，直到连接到新的ServerSocket 可以通过循环调用accept的方法监听多个连接
+ *
+ *   在非阻塞模式下，accept会立刻返回，如果没有新连接为null,
+ *
  */
 public class SocketNio {
     public static void main(String[] args) throws Exception{
