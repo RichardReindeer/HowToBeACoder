@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/HowToBeACoder.iml" filepath="$PROJECT_DIR$/.idea/HowToBeACoder.iml" />
       <module fileurl="file://$PROJECT_DIR$/JVMstaff/JVMstaff.iml" filepath="$PROJECT_DIR$/JVMstaff/JVMstaff.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaSe/JavaSe.iml" filepath="$PROJECT_DIR$/JavaSe/JavaSe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NettyLearn/NettyLearn.iml" filepath="$PROJECT_DIR$/NettyLearn/NettyLearn.iml" />
     </modules>
   </component>
 </project>

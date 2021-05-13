@@ -30,6 +30,13 @@ public class SocketBio {
                 try {
                     inputStream = client.getInputStream();
                     BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
+                    //添加代码
+                    //如去客户端socket发送过来的信息，存在阻塞
+                    System.out.println("等待用户输入");
+                    //客户端发送的信息会根据TCP协议先写到服务端内核中，当服务端开始读取操作时，
+                    //就会从内存中读走tcp协议拿过来的数据
+                    //tcp协议保证了数据传输的可靠性(即可靠性传输)
+                    System.in.read();
                     while (true){
                         //第二个阻塞
                         String dataLine = reader.readLine();
