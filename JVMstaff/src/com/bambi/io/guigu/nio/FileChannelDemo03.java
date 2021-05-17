@@ -47,11 +47,9 @@ public class FileChannelDemo03 {
             byteBuffer.flip();
             fileChannelOut.write(byteBuffer);
         }
-
         fileOutputStream.close();
         fileInputStream.close();
         fileChannel.close();
         fileChannelOut.close();
-
     }
 }
