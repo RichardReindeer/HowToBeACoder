@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Springboot-shiro-Demo" />
         <module name="HelloShiro" />
         <module name="NettyLearn" />
         <module name="springboot-shiro" />
@@ -18,10 +19,12 @@
       <module name="shiro-springboot" target="11" />
       <module name="Spring-08-Shiro" target="11" />
       <module name="springboot-shiro" target="11" />
+      <module name="Springboot-shiro-Demo" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Springboot-shiro-Demo" options="-parameters" />
       <module name="shiro-springBoot" options="-parameters" />
       <module name="shiro-springboot" options="-parameters" />
       <module name="springboot-shiro" options="-parameters" />

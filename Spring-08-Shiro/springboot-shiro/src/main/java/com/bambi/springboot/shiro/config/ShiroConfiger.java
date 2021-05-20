@@ -6,6 +6,10 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
 @Configuration
 public class ShiroConfiger {
     //配置需要倒着配，先配realm对象
@@ -19,6 +23,30 @@ public class ShiroConfiger {
         //使用set方法将SecurityManager设置为注入到SpringBean中的defaultWebSecurityManager对象
         //设置安全管理器
         shiroFilterFactoryBean.setSecurityManager(defaultWebSecurityManager);
+
+
+        //添加Shiro的内置过滤器
+        /**
+         *
+         * anon : 无需认证就可以访问
+         * authc: 必须认证了才能访问
+         * user:  必须拥有 记住我 功能才能用
+         * perms: 拥有对某个资源的权限才能访问
+         * role:  拥有某个角色权限才能访问
+         */
+
+        //拦截
+        Map<String, String> filterChainDefinitionMap  = new LinkedHashMap<>();
+        //向map中添加路径去权限 支持通配符
+        /*filterChainDefinitionMap.put("/user/add","authc");
+        filterChainDefinitionMap.put("/user/update","authc");*/
+        filterChainDefinitionMap.put("/user/*","authc");
+        //去测试一下看看还能不能直接访问了
+        //不能，会报404错误，因为没有权限
+
+        shiroFilterFactoryBean.setFilterChainDefinitionMap(filterChainDefinitionMap);
+        //设置登录请求
+        shiroFilterFactoryBean.setLoginUrl("/tologin");
 
         return shiroFilterFactoryBean;
     }
