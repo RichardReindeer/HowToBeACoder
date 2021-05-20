@@ -15,7 +15,6 @@
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>11</java.version>
-        <thymeleaf-layout-dialect.version>2.0.4</thymeleaf-layout-dialect.version>
     </properties>
     <dependencies>
         <!--
@@ -23,6 +22,40 @@
             SecurityManager 安全管理  管理所有用户
             Realm  连接数据
         -->
+
+        <!--lombok-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.2</version>
+        </dependency>
+
+        <!--连接数据库的依赖-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+        <!--log4j-->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+        <!--druid-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.1.12</version>
+        </dependency>
+        <!--myBatis依赖 这是Mybatis官方提供的 适配SpringBoot的，不是SpringBoot自己的-->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>2.1.4</version>
+        </dependency>
+        <!--编写配置文件-->
+
 
         <!--shiro 整合Spring的包-->
         <dependency>
@@ -48,6 +81,18 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
+        <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-test</artifactId>
+        <scope>test</scope>
+        <exclusions>
+            <exclusion>
+                <groupId>org.junit.vintage</groupId>
+                <artifactId>junit-vintage-engine</artifactId>
+            </exclusion>
+        </exclusions>
+    </dependency>
 
         <dependency>
             <groupId>org.thymeleaf</groupId>
