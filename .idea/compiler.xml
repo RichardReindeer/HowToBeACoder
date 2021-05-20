@@ -10,6 +10,7 @@
         <module name="HelloShiro" />
         <module name="NettyLearn" />
         <module name="springboot-shiro" />
+        <module name="springboot-shiro-demo02" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +21,7 @@
       <module name="Spring-08-Shiro" target="11" />
       <module name="springboot-shiro" target="11" />
       <module name="Springboot-shiro-Demo" target="11" />
+      <module name="springboot-shiro-demo02" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -28,6 +30,7 @@
       <module name="shiro-springBoot" options="-parameters" />
       <module name="shiro-springboot" options="-parameters" />
       <module name="springboot-shiro" options="-parameters" />
+      <module name="springboot-shiro-demo02" options="-parameters" />
     </option>
   </component>
 </project>
