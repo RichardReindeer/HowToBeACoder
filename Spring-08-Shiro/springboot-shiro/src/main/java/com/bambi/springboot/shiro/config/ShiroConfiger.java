@@ -46,7 +46,7 @@ public class ShiroConfiger {
 
         shiroFilterFactoryBean.setFilterChainDefinitionMap(filterChainDefinitionMap);
         //设置登录请求
-        shiroFilterFactoryBean.setLoginUrl("/tologin");
+        shiroFilterFactoryBean.setLoginUrl("/toLogin");
 
         return shiroFilterFactoryBean;
     }
