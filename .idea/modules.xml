@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Spring-08-Shiro/HelloShiro/HelloShiro.iml" filepath="$PROJECT_DIR$/Spring-08-Shiro/HelloShiro/HelloShiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/HowToBeACoder.iml" filepath="$PROJECT_DIR$/.idea/HowToBeACoder.iml" />
       <module fileurl="file://$PROJECT_DIR$/JVMstaff/JVMstaff.iml" filepath="$PROJECT_DIR$/JVMstaff/JVMstaff.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaSe/JavaSe.iml" filepath="$PROJECT_DIR$/JavaSe/JavaSe.iml" />
       <module fileurl="file://$PROJECT_DIR$/NettyLearn/NettyLearn.iml" filepath="$PROJECT_DIR$/NettyLearn/NettyLearn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-08-Shiro/Spring-08-Shiro.iml" filepath="$PROJECT_DIR$/Spring-08-Shiro/Spring-08-Shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-08-Shiro/springboot-shiro/springboot-shiro.iml" filepath="$PROJECT_DIR$/Spring-08-Shiro/springboot-shiro/springboot-shiro.iml" />
     </modules>
   </component>
 </project>

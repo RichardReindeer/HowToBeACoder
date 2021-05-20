@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="io.netty:netty:3.6.5.Final" type="repository">
+    <properties maven-id="io.netty:netty:3.6.5.Final">
+      <exclude>
+        <dependency maven-id="io.netty:netty" />
+      </exclude>
+    </properties>
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

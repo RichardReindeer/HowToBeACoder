@@ -4,6 +4,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/NettyLearn/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-08-Shiro/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-08-Shiro/springboot-shiro/pom.xml" />
       </list>
     </option>
   </component>
