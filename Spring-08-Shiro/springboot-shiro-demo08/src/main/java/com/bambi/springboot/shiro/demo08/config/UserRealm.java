@@ -1,8 +1,6 @@
 package com.bambi.springboot.shiro.demo08.config;
 
-import org.apache.shiro.authc.AuthenticationException;
-import org.apache.shiro.authc.AuthenticationInfo;
-import org.apache.shiro.authc.AuthenticationToken;
+import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
@@ -27,6 +25,12 @@ public class UserRealm extends AuthorizingRealm implements Serializable {
     //处理验证
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken authenticationToken) throws AuthenticationException {
-        return null;
+        String username = "user";
+        String password = "password";
+        UsernamePasswordToken token = new UsernamePasswordToken(username,password);
+        if(!token.getUsername().equals(username)){
+            return null;
+        }
+        return new SimpleAuthenticationInfo("",password,"");
     }
 }

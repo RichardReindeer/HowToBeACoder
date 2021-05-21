@@ -6,6 +6,9 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import java.util.LinkedHashMap;
+import java.util.Map;
+
 /**
  * Shiro的配置类
  * shiro的三大部分 ， Subject : 应用代码直接交互的对象，是对外核心api，
@@ -22,6 +25,11 @@ public class ShiroConfig {
     public ShiroFilterFactoryBean getShiroFilterFactoryBean(@Qualifier("getSecurityManager") DefaultWebSecurityManager manager){
         ShiroFilterFactoryBean bean = new ShiroFilterFactoryBean();
         bean.setSecurityManager(manager);
+        //设置拦截
+        Map<String, String> filterChainDefinitionMap = new LinkedHashMap<>();
+        filterChainDefinitionMap.put("/user/*","authc");
+        bean.setLoginUrl("/toLogin");
+        bean.setFilterChainDefinitionMap(filterChainDefinitionMap);
         return bean;
     }
 
