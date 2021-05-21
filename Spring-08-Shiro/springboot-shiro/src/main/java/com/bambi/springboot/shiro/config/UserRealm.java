@@ -6,6 +6,7 @@ import com.bambi.springboot.shiro.service.UserService;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
+import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.subject.Subject;
@@ -26,7 +27,19 @@ public class UserRealm extends AuthorizingRealm {
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principalCollection) {
         System.out.println("执行了授权方法 doGetAuthorizationInfo");
-        return null;
+        SimpleAuthorizationInfo info = new SimpleAuthorizationInfo();
+        //info.addStringPermission("user:add");
+
+        //拿到当前登录的那个对象
+        Subject currentUser = SecurityUtils.getSubject();
+        //在实例化SimpleAutherticationInfo的时候添加principal为user，就可以在其他方法中，用subject调用getPrincipal获取
+        User user  = (User) currentUser.getPrincipal();//拿到user对象
+
+        //设置权限(set的话是一个set集合)
+        info.addStringPermission(user.getPermission());
+
+        //这里不能return null !!!! return null就等于啥也没写了
+        return info;
     }
 
     //认证
@@ -54,6 +67,6 @@ public class UserRealm extends AuthorizingRealm {
         //1.获取当前用户的认证
         //2. 获取它要传递密码的对象
         //3. 传递的认证名
-        return new SimpleAuthenticationInfo("",user.getPassword(),"");
+        return new SimpleAuthenticationInfo(user,user.getPassword(),"");
     }
 }

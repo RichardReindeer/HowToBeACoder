@@ -37,6 +37,14 @@ public class ShiroConfiger {
 
         //拦截
         Map<String, String> filterChainDefinitionMap  = new LinkedHashMap<>();
+
+        //添加权限操作
+        //perms权限设置，后面跟一个键值对数组，表示user必须拥有add权限才可以访问
+        //没有权限   401---->未授权
+        //正常情况下，未授权会跳转到未授权页面
+        filterChainDefinitionMap.put("/user/add","perms[user:add]");
+        filterChainDefinitionMap.put("/user/update","perms[user:update]");
+
         //向map中添加路径去权限 支持通配符
         /*filterChainDefinitionMap.put("/user/add","authc");
         filterChainDefinitionMap.put("/user/update","authc");*/
@@ -47,6 +55,8 @@ public class ShiroConfiger {
         shiroFilterFactoryBean.setFilterChainDefinitionMap(filterChainDefinitionMap);
         //设置登录请求
         shiroFilterFactoryBean.setLoginUrl("/toLogin");
+        //设置未授权页面请求
+        shiroFilterFactoryBean.setUnauthorizedUrl("/noauth");
 
         return shiroFilterFactoryBean;
     }

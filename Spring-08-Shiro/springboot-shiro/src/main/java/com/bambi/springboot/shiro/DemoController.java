@@ -8,6 +8,7 @@ import org.apache.shiro.subject.Subject;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class DemoController {
@@ -56,5 +57,11 @@ public class DemoController {
             return "login";
         }
 
+    }
+
+    @RequestMapping("/noauth")
+    @ResponseBody
+    public String unAuthorized(){
+        return "未经授权无法访问此页面";
     }
 }
