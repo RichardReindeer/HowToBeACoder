@@ -13,6 +13,8 @@
       <module fileurl="file://$PROJECT_DIR$/Spring-08-Shiro/springboot-shiro-demo02/springboot-shiro-demo02.iml" filepath="$PROJECT_DIR$/Spring-08-Shiro/springboot-shiro-demo02/springboot-shiro-demo02.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-08-Shiro/springboot-shiro-demo03/springboot-shiro-demo03.iml" filepath="$PROJECT_DIR$/Spring-08-Shiro/springboot-shiro-demo03/springboot-shiro-demo03.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-08-Shiro/springboot-shiro-demo04/springboot-shiro-demo04.iml" filepath="$PROJECT_DIR$/Spring-08-Shiro/springboot-shiro-demo04/springboot-shiro-demo04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-08-Shiro/springboot-shiro-demo05/springboot-shiro-demo05.iml" filepath="$PROJECT_DIR$/Spring-08-Shiro/springboot-shiro-demo05/springboot-shiro-demo05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-08-Shiro/springboot-shiro-demo06/springboot-shiro-demo06.iml" filepath="$PROJECT_DIR$/Spring-08-Shiro/springboot-shiro-demo06/springboot-shiro-demo06.iml" />
     </modules>
   </component>
 </project>
