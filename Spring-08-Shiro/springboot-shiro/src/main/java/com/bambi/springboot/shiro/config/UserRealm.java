@@ -8,6 +8,7 @@ import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
+import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.subject.Subject;
 
@@ -57,8 +58,10 @@ public class UserRealm extends AuthorizingRealm {
             System.out.println("用户信息不正确");
             return null;
         }
-
-
+        //此处登录成功，将登录用户的信息存入session中
+        Subject currentSubject = SecurityUtils.getSubject();
+        Session session = currentSubject.getSession();
+        session.setAttribute("loginUser",user);
 
         //密码认证shiro自己做 shiro密码也可以加密
 

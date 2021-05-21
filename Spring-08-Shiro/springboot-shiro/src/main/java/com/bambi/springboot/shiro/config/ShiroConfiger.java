@@ -1,5 +1,6 @@
 package com.bambi.springboot.shiro.config;
 
+import at.pollux.thymeleaf.shiro.dialect.ShiroDialect;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -82,4 +83,11 @@ public class ShiroConfiger {
     public UserRealm userRealm(){
         return new UserRealm();
     }
+
+    //整合shiroDialect   用来整合shiro和Thymeleaf
+    @Bean
+    public ShiroDialect getShiroDialect(){
+        return new ShiroDialect();
+    }
+
 }

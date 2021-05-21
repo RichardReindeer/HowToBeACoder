@@ -20,7 +20,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="HelloShiro" target="11" />
-      <module name="NettyLearn" target="11" />
+      <module name="NettyLearn" target="1.5" />
       <module name="shiro-springBoot" target="11" />
       <module name="shiro-springboot" target="11" />
       <module name="Spring-08-Shiro" target="11" />
