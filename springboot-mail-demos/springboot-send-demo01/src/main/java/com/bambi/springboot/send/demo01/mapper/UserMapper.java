@@ -11,6 +11,5 @@ import org.springframework.stereotype.Component;
 @ApiModel("这是mybatis用来查询的接口")
 public interface UserMapper {
 
-    @Select("select * from user where username = #{username}")
     public UserVo selectUserByUsername(String username);
 }

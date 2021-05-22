@@ -30,10 +30,12 @@ public class ShiroController {
         return "login";
     }
 
-    @PostMapping("/login")
+    @GetMapping("/login")
     public String login(String username,String password){
-        UsernamePasswordToken token = new UsernamePasswordToken(username,password);
         Subject subject = SecurityUtils.getSubject();
+        UsernamePasswordToken token = new UsernamePasswordToken(username,password);
+        System.out.println("--------------------------------");
+        System.out.println(token);
         try {
             subject.login(token);
             return "index";

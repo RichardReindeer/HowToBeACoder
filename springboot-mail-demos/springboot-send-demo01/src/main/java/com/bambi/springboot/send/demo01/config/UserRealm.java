@@ -37,6 +37,7 @@ public class UserRealm extends AuthorizingRealm {
         UsernamePasswordToken token = (UsernamePasswordToken) authenticationToken;
         UserVo userVo = userService.selectUserByUsername(token.getUsername());
         if(userVo==null){
+            System.out.println("用户信息不正确");
             return null;
         }
         Subject currentSubject = SecurityUtils.getSubject();

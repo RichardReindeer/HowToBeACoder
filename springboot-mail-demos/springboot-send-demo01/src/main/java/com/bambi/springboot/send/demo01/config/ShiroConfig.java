@@ -23,7 +23,7 @@ public class ShiroConfig {
         shiroFilterFactoryBean.setSecurityManager(manager);
         //设置拦截
         Map<String, String> filterChainDefinitionMap = new LinkedHashMap<>();
-        filterChainDefinitionMap.put("user/send","perms[user:add]");
+        filterChainDefinitionMap.put("/user/send","perms[user:add]");
         shiroFilterFactoryBean.setFilterChainDefinitionMap(filterChainDefinitionMap);
         shiroFilterFactoryBean.setLoginUrl("/toLogin");
         return shiroFilterFactoryBean;
