@@ -18,6 +18,7 @@
         <module name="HelloShiro" />
         <module name="springboot-shiro" />
         <module name="springboot-swagger-Demo01" />
+        <module name="springboot-swagger-demo02" />
         <module name="NettyLearn" />
         <module name="springboot-shiro-demo02" />
       </profile>
@@ -39,6 +40,7 @@
       <module name="springboot-shiro-demo07" target="11" />
       <module name="springboot-shiro-demo08" target="11" />
       <module name="springboot-swagger-Demo01" target="11" />
+      <module name="springboot-swagger-demo02" target="11" />
       <module name="SpringSwaggerDemo" target="11" />
       <module name="wrapper (1)" target="11" />
       <module name="wrapper (2)" target="11" />
@@ -62,6 +64,7 @@
       <module name="springboot-shiro-demo07" options="-parameters" />
       <module name="springboot-shiro-demo08" options="-parameters" />
       <module name="springboot-swagger-Demo01" options="-parameters" />
+      <module name="springboot-swagger-demo02" options="-parameters" />
     </option>
   </component>
 </project>
