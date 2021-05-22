@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/JavaSe/JavaSe.iml" filepath="$PROJECT_DIR$/JavaSe/JavaSe.iml" />
       <module fileurl="file://$PROJECT_DIR$/NettyLearn/NettyLearn.iml" filepath="$PROJECT_DIR$/NettyLearn/NettyLearn.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-08-Shiro/Spring-08-Shiro.iml" filepath="$PROJECT_DIR$/Spring-08-Shiro/Spring-08-Shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringSwaggerDemo/SpringSwaggerDemo.iml" filepath="$PROJECT_DIR$/SpringSwaggerDemo/SpringSwaggerDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-08-Shiro/Springboot-shiro-Demo/Springboot-shiro-Demo.iml" filepath="$PROJECT_DIR$/Spring-08-Shiro/Springboot-shiro-Demo/Springboot-shiro-Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-swagger/spring-swagger.iml" filepath="$PROJECT_DIR$/spring-swagger/spring-swagger.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-08-Shiro/springboot-shiro/springboot-shiro.iml" filepath="$PROJECT_DIR$/Spring-08-Shiro/springboot-shiro/springboot-shiro.iml" />
@@ -17,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/Spring-08-Shiro/springboot-shiro-demo05/springboot-shiro-demo05.iml" filepath="$PROJECT_DIR$/Spring-08-Shiro/springboot-shiro-demo05/springboot-shiro-demo05.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-08-Shiro/springboot-shiro-demo06/springboot-shiro-demo06.iml" filepath="$PROJECT_DIR$/Spring-08-Shiro/springboot-shiro-demo06/springboot-shiro-demo06.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-08-Shiro/springboot-shiro-demo08/springboot-shiro-demo08.iml" filepath="$PROJECT_DIR$/Spring-08-Shiro/springboot-shiro-demo08/springboot-shiro-demo08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringSwaggerDemo/springboot-swagger-Demo01/springboot-swagger-Demo01.iml" filepath="$PROJECT_DIR$/SpringSwaggerDemo/springboot-swagger-Demo01/springboot-swagger-Demo01.iml" />
     </modules>
   </component>
 </project>
