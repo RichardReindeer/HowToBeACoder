@@ -20,7 +20,9 @@
         <module name="springboot-shiro" />
         <module name="springboot-swagger-Demo01" />
         <module name="springboot-swagger-demo02" />
+        <module name="springboot-mail-demos" />
         <module name="NettyLearn" />
+        <module name="springboot-mail-demo01" />
         <module name="springboot-shiro-demo02" />
       </profile>
     </annotationProcessing>
@@ -32,6 +34,8 @@
       <module name="Spring-08-Shiro" target="11" />
       <module name="spring-swagger" target="11" />
       <module name="springboot-09-test" target="11" />
+      <module name="springboot-mail-demo01" target="11" />
+      <module name="springboot-mail-demos" target="11" />
       <module name="springboot-shiro" target="11" />
       <module name="Springboot-shiro-Demo" target="11" />
       <module name="springboot-shiro-demo02" target="11" />
@@ -58,6 +62,8 @@
       <module name="shiro-springboot" options="-parameters" />
       <module name="spring-swagger" options="-parameters" />
       <module name="springboot-09-test" options="-parameters" />
+      <module name="springboot-mail-demo01" options="-parameters" />
+      <module name="springboot-mail-demos" options="-parameters" />
       <module name="springboot-shiro" options="-parameters" />
       <module name="springboot-shiro-demo02" options="-parameters" />
       <module name="springboot-shiro-demo03" options="-parameters" />
