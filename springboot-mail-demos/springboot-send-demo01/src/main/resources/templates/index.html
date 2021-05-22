@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+  <h1>这是一个整合练习</h1>
+  <p th:text="${message}">测试一下thymeleaf好不好使</p>
+  <hr>
+  <a th:href="@{/toLogin}">登录</a>
+  <div>
+      <a th:href="@{/user/send}">文件发送</a>
+  </div>
+  <div>
+      <a th:href="@{/user/update}">文件信息修改</a>
+  </div>
+</body>
+</html>
