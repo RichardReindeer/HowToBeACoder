@@ -17,9 +17,11 @@
         <module name="Springboot-shiro-Demo" />
         <module name="SpringSwaggerDemo" />
         <module name="HelloShiro" />
+        <module name="provider-server" />
         <module name="springboot-shiro" />
         <module name="springboot-swagger-Demo01" />
         <module name="springboot-send-demo01" />
+        <module name="consumer-server" />
         <module name="springboot-swagger-demo02" />
         <module name="springboot-mail-demos" />
         <module name="NettyLearn" />
@@ -28,8 +30,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="consumer-server" target="11" />
       <module name="HelloShiro" target="11" />
       <module name="NettyLearn" target="1.5" />
+      <module name="provider-server" target="11" />
       <module name="shiro-springBoot" target="11" />
       <module name="shiro-springboot" target="11" />
       <module name="Spring-08-Shiro" target="11" />
@@ -60,6 +64,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SpringSwaggerDemo" options="-parameters" />
       <module name="Springboot-shiro-Demo" options="-parameters" />
+      <module name="consumer-server" options="-parameters" />
+      <module name="provider-server" options="-parameters" />
       <module name="shiro-springBoot" options="-parameters" />
       <module name="shiro-springboot" options="-parameters" />
       <module name="spring-swagger" options="-parameters" />

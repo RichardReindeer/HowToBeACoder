@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Dubbo+zookeeper/Dubbo+zooKeeper.iml" filepath="$PROJECT_DIR$/Dubbo+zookeeper/Dubbo+zooKeeper.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-08-Shiro/HelloShiro/HelloShiro.iml" filepath="$PROJECT_DIR$/Spring-08-Shiro/HelloShiro/HelloShiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/HowToBeACoder.iml" filepath="$PROJECT_DIR$/.idea/HowToBeACoder.iml" />
       <module fileurl="file://$PROJECT_DIR$/JVMstaff/JVMstaff.iml" filepath="$PROJECT_DIR$/JVMstaff/JVMstaff.iml" />
@@ -10,6 +11,8 @@
       <module fileurl="file://$PROJECT_DIR$/Spring-08-Shiro/Spring-08-Shiro.iml" filepath="$PROJECT_DIR$/Spring-08-Shiro/Spring-08-Shiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringSwaggerDemo/SpringSwaggerDemo.iml" filepath="$PROJECT_DIR$/SpringSwaggerDemo/SpringSwaggerDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-08-Shiro/Springboot-shiro-Demo/Springboot-shiro-Demo.iml" filepath="$PROJECT_DIR$/Spring-08-Shiro/Springboot-shiro-Demo/Springboot-shiro-Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dubbo+zooKeeper/consumer-server/consumer-server.iml" filepath="$PROJECT_DIR$/Dubbo+zooKeeper/consumer-server/consumer-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dubbo+zooKeeper/provider-server/provider-server.iml" filepath="$PROJECT_DIR$/Dubbo+zooKeeper/provider-server/provider-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-swagger/spring-swagger.iml" filepath="$PROJECT_DIR$/spring-swagger/spring-swagger.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-09-test/springboot-09-test.iml" filepath="$PROJECT_DIR$/springboot-09-test/springboot-09-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mail-demos/springboot-mail-demo01/springboot-mail-demo01.iml" filepath="$PROJECT_DIR$/springboot-mail-demos/springboot-mail-demo01/springboot-mail-demo01.iml" />

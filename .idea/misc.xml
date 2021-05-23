@@ -21,6 +21,8 @@
         <option value="$PROJECT_DIR$/springboot-mail-demos/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-mail-demos/springboot-mail-demo01/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-mail-demos/springboot-send-demo01/pom.xml" />
+        <option value="$PROJECT_DIR$/Dubbo+zooKeeper/provider-server/pom.xml" />
+        <option value="$PROJECT_DIR$/Dubbo+zooKeeper/consumer-server/pom.xml" />
       </list>
     </option>
   </component>
