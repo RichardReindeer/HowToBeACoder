@@ -1,5 +1,11 @@
 package com.bambi.disOrder;
 
+import sun.misc.Unsafe;
+
+import java.util.concurrent.locks.AbstractQueuedLongSynchronizer;
+import java.util.concurrent.locks.AbstractQueuedSynchronizer;
+import java.util.concurrent.locks.ReentrantLock;
+
 public class DisorderDemo01 {
     private static int x = 0,y = 0;
     private static int a = 0,b = 0;

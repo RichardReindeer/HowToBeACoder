@@ -14,31 +14,27 @@
         <module name="springboot-09-test" />
         <module name="springboot-shiro-demo08" />
         <module name="spring-swagger" />
-        <module name="dubboZookeeper-client" />
         <module name="Springboot-shiro-Demo" />
         <module name="SpringSwaggerDemo" />
         <module name="HelloShiro" />
         <module name="provider-server" />
         <module name="springboot-shiro" />
-        <module name="springboot-swagger-Demo01" />
         <module name="springboot-send-demo01" />
+        <module name="springboot-swagger-Demo01" />
         <module name="consumer-server" />
         <module name="springboot-swagger-demo02" />
         <module name="springboot-mail-demos" />
         <module name="NettyLearn" />
         <module name="springboot-mail-demo01" />
         <module name="dubboZookeeper-server" />
-        <module name="Dubbo-Zookeeper-Demo01" />
         <module name="springboot-shiro-demo02" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="consumer-server" target="11" />
-      <module name="Dubbo-Zookeeper-Demo01" target="11" />
-      <module name="dubboZookeeper-client" target="11" />
       <module name="dubboZookeeper-server" target="11" />
       <module name="HelloShiro" target="11" />
-      <module name="NettyLearn" target="1.5" />
+      <module name="NettyLearn" target="11" />
       <module name="provider-server" target="11" />
       <module name="shiro-springBoot" target="11" />
       <module name="shiro-springboot" target="11" />
@@ -68,11 +64,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Dubbo-Zookeeper-Demo01" options="-parameters" />
       <module name="SpringSwaggerDemo" options="-parameters" />
       <module name="Springboot-shiro-Demo" options="-parameters" />
       <module name="consumer-server" options="-parameters" />
-      <module name="dubboZookeeper-client" options="-parameters" />
       <module name="dubboZookeeper-server" options="-parameters" />
       <module name="provider-server" options="-parameters" />
       <module name="shiro-springBoot" options="-parameters" />
