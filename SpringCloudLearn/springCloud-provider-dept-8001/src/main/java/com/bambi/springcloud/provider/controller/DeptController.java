@@ -2,7 +2,6 @@ package com.bambi.springcloud.provider.controller;
 
 import com.bambi.springcloud.api.vo.Dept;
 import com.bambi.springcloud.provider.service.IDeptService;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;

@@ -27,6 +27,7 @@
         <option value="$PROJECT_DIR$/Dubbo+zooKeeperDemo/Dubbo-Zookeeper-Demo01/dubboZookeeper-server/pom.xml" />
         <option value="$PROJECT_DIR$/Dubbo+zooKeeperDemo/Dubbo-Zookeeper-Demo01/dubboZookeeper-client/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloudLearn/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloudTrain/pom.xml" />
       </list>
     </option>
   </component>
