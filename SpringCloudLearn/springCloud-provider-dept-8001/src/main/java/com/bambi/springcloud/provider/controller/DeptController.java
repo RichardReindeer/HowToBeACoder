@@ -30,7 +30,7 @@ public class DeptController {
         return service.queryDeptById(id);
     }
 
-    @PostMapping("/dept/list")
+    @GetMapping("/dept/list")
     public List<Dept> queryAll(){
         return service.queryAll();
     }

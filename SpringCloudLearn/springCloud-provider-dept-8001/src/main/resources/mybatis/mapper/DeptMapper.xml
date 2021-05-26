@@ -8,7 +8,7 @@
     </select>
 
     <insert id="addDept" parameterType="com.bambi.springcloud.api.vo.Dept">
-        insert into dept (dept_name,db_source) value(#{deptName},DATABASE())
+        insert into dept (dept_name,db_source) value(#{deptName},DATABASE());
     </insert>
 
     <select id="queryById" resultType="com.bambi.springcloud.api.vo.Dept" parameterType="Long">
