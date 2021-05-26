@@ -9,8 +9,8 @@ import java.util.List;
 /**
  * 数据访问层
  */
-@Mapper
 @Repository
+@Mapper
 public interface DeptMapper {
 
     /**

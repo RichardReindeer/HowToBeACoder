@@ -4,13 +4,16 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.bambi.springcloud.provider.demo.mapper.DeptMapper">
     <select id="selectDeptById" parameterType="Long" resultType="com.bambi.spring.api.pojo.Dept">
-        select dept_name,db_source from dept where dept_id = #{id};
+        select dept_name, db_source
+        from dept
+        where dept_id = #{id};
     </select>
-    <select id="selectAll" resultType="com.bambi.spring.api.pojo.Dept" >
-        select dept_id,dept_name,db_source from dept;
+    <select id="selectAll" resultType="com.bambi.spring.api.pojo.Dept">
+        select dept_id, dept_name, db_source
+        from dept;
     </select>
     <insert id="addDept" parameterType="com.bambi.spring.api.pojo.Dept">
-        insert into dept (dept_name,db_source) value (#{deptName},DATEBASE());
+        insert into dept (dept_name, db_source) value (#{deptName},DATEBASE());
     </insert>
 
 </mapper>

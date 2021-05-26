@@ -15,16 +15,19 @@
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
+        <!--将版本号一起写在上面，方便以后的修改-->
         <junit.version>4.13</junit.version>
+        <lombok.version>1.18.18</lombok.version>
         <log4j.version>1.2.17</log4j.version>
-        <mybatis-starter>2.1.4</mybatis-starter>
     </properties>
 
-    <!--修改打包方式 为pom-->
+    <!--打包方式   pom打包方式-->
     <packaging>pom</packaging>
+
 
     <dependencyManagement>
         <dependencies>
+            <!--SpringCloud的依赖 很重要-->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
@@ -33,46 +36,57 @@
                 <scope>import</scope>
             </dependency>
 
-            <!--添加springBoot依赖-->
+            <!--SpringBoot依赖-->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
-                <version>2.4.5</version>
+                <version>2.4.4</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
 
-            <!--添加mybatis依赖-->
+            <!--数据库连接-->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>8.0.23</version>
+            </dependency>
+            <!--数据源-->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid</artifactId>
+                <version>1.1.21</version>
+            </dependency>
+
+            <!--SpringBoot启动器-->
             <dependency>
                 <groupId>org.mybatis.spring.boot</groupId>
                 <artifactId>mybatis-spring-boot-starter</artifactId>
                 <version>2.1.4</version>
             </dependency>
-            <!--添加数据库依赖-->
-            <dependency>
-                <groupId>mysql</groupId>
-                <artifactId>mysql-connector-java</artifactId>
-                <version>8.0.24</version>
-            </dependency>
 
-            <!--添加数据源druid-->
-            <dependency>
-                <groupId>com.alibaba</groupId>
-                <artifactId>druid</artifactId>
-                <version>1.1.12</version>
-            </dependency>
-            <!--添加单元测试Junit依赖-->
+            <!--junit 单元测试-->
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
                 <version>${junit.version}</version>
+                <scope>test</scope>
             </dependency>
+
+            <!--lombok-->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+            </dependency>
+
+            <!--log4j依赖 日志门面-->
             <dependency>
                 <groupId>log4j</groupId>
                 <artifactId>log4j</artifactId>
                 <version>${log4j.version}</version>
             </dependency>
-            <!--添加日志门面-->
+            <!--日志门面-->
             <dependency>
                 <groupId>ch.qos.logback</groupId>
                 <artifactId>logback-core</artifactId>
@@ -80,4 +94,5 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
 </project>

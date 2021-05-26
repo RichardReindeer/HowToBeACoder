@@ -2,13 +2,13 @@ server:
   port: 8001
 mybatis:
   type-aliases-package: com.bambi.spring.api.pojo
-  mapper-locations: classpaths:mybatis/mapper/*.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
   configuration:
     map-underscore-to-camel-case: true
 
 spring:
   application:
-    name: springCloud-provider-dept-8001
+    name: springCloud-provider-demo01-8001
   datasource:
     #设置数据源
     type: com.alibaba.druid.pool.DruidDataSource
