@@ -22,6 +22,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-swagger/spring-swagger.iml" filepath="$PROJECT_DIR$/spring-swagger/spring-swagger.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudLearn/springCloud-api/springCloud-api.iml" filepath="$PROJECT_DIR$/SpringCloudLearn/springCloud-api/springCloud-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudTrain/springCloud-api-demo01/springCloud-api-demo01.iml" filepath="$PROJECT_DIR$/SpringCloudTrain/springCloud-api-demo01/springCloud-api-demo01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudLearn/springCloud-consumer-dept-80/springCloud-consumer-dept-80.iml" filepath="$PROJECT_DIR$/SpringCloudLearn/springCloud-consumer-dept-80/springCloud-consumer-dept-80.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudTrain/springCloud-provider-demo01-8001/springCloud-provider-demo01-8001.iml" filepath="$PROJECT_DIR$/SpringCloudTrain/springCloud-provider-demo01-8001/springCloud-provider-demo01-8001.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudLearn/springCloud-provider-dept-8001/springCloud-provider-dept-8001.iml" filepath="$PROJECT_DIR$/SpringCloudLearn/springCloud-provider-dept-8001/springCloud-provider-dept-8001.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-09-test/springboot-09-test.iml" filepath="$PROJECT_DIR$/springboot-09-test/springboot-09-test.iml" />

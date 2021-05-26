@@ -2,10 +2,7 @@ package com.bambi.springcloud.provider.controller;
 
 import com.bambi.springcloud.api.vo.Dept;
 import com.bambi.springcloud.provider.service.IDeptService;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -20,7 +17,7 @@ public class DeptController {
     IDeptService service;
 
     @PostMapping("/dept/add")
-    public boolean addDept(Dept dept){
+    public boolean addDept( @RequestBody Dept dept){
         return service.addDept(dept);
     }
 
