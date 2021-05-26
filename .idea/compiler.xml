@@ -14,13 +14,16 @@
         <module name="springboot-09-test" />
         <module name="springboot-shiro-demo08" />
         <module name="spring-swagger" />
+        <module name="dubboZookeeper-client" />
         <module name="Springboot-shiro-Demo" />
         <module name="SpringSwaggerDemo" />
         <module name="HelloShiro" />
+        <module name="springCloud-api" />
         <module name="provider-server" />
         <module name="springboot-shiro" />
         <module name="springboot-send-demo01" />
         <module name="springboot-swagger-Demo01" />
+        <module name="springCloud-provider-dept-8001" />
         <module name="consumer-server" />
         <module name="springboot-swagger-demo02" />
         <module name="springboot-mail-demos" />
@@ -32,9 +35,10 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="consumer-server" target="11" />
+      <module name="dubboZookeeper-client" target="11" />
       <module name="dubboZookeeper-server" target="11" />
       <module name="HelloShiro" target="11" />
-      <module name="NettyLearn" target="11" />
+      <module name="NettyLearn" target="1.5" />
       <module name="provider-server" target="11" />
       <module name="shiro-springBoot" target="11" />
       <module name="shiro-springboot" target="11" />
@@ -55,6 +59,9 @@
       <module name="springboot-shiro-demo08" target="11" />
       <module name="springboot-swagger-Demo01" target="11" />
       <module name="springboot-swagger-demo02" target="11" />
+      <module name="springCloud-api" target="11" />
+      <module name="springCloud-provider-dept-8001" target="11" />
+      <module name="SpringCloudLearn" target="11" />
       <module name="SpringSwaggerDemo" target="11" />
       <module name="wrapper (1)" target="11" />
       <module name="wrapper (2)" target="11" />
@@ -67,6 +74,7 @@
       <module name="SpringSwaggerDemo" options="-parameters" />
       <module name="Springboot-shiro-Demo" options="-parameters" />
       <module name="consumer-server" options="-parameters" />
+      <module name="dubboZookeeper-client" options="-parameters" />
       <module name="dubboZookeeper-server" options="-parameters" />
       <module name="provider-server" options="-parameters" />
       <module name="shiro-springBoot" options="-parameters" />

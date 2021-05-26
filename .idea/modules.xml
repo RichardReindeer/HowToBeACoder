@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/JavaSe/JavaSe.iml" filepath="$PROJECT_DIR$/JavaSe/JavaSe.iml" />
       <module fileurl="file://$PROJECT_DIR$/NettyLearn/NettyLearn.iml" filepath="$PROJECT_DIR$/NettyLearn/NettyLearn.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-08-Shiro/Spring-08-Shiro.iml" filepath="$PROJECT_DIR$/Spring-08-Shiro/Spring-08-Shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudLearn/SpringCloudLearn.iml" filepath="$PROJECT_DIR$/SpringCloudLearn/SpringCloudLearn.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringSwaggerDemo/SpringSwaggerDemo.iml" filepath="$PROJECT_DIR$/SpringSwaggerDemo/SpringSwaggerDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-08-Shiro/Springboot-shiro-Demo/Springboot-shiro-Demo.iml" filepath="$PROJECT_DIR$/Spring-08-Shiro/Springboot-shiro-Demo/Springboot-shiro-Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dubbo+zooKeeper/consumer-server/consumer-server.iml" filepath="$PROJECT_DIR$/Dubbo+zooKeeper/consumer-server/consumer-server.iml" />
@@ -18,6 +19,8 @@
       <module fileurl="file://$PROJECT_DIR$/Dubbo+zooKeeperDemo/Dubbo-Zookeeper-Demo01/dubboZookeeper-server/dubboZookeeper-server.iml" filepath="$PROJECT_DIR$/Dubbo+zooKeeperDemo/Dubbo-Zookeeper-Demo01/dubboZookeeper-server/dubboZookeeper-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dubbo+zooKeeper/provider-server/provider-server.iml" filepath="$PROJECT_DIR$/Dubbo+zooKeeper/provider-server/provider-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-swagger/spring-swagger.iml" filepath="$PROJECT_DIR$/spring-swagger/spring-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudLearn/springCloud-api/springCloud-api.iml" filepath="$PROJECT_DIR$/SpringCloudLearn/springCloud-api/springCloud-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudLearn/springCloud-provider-dept-8001/springCloud-provider-dept-8001.iml" filepath="$PROJECT_DIR$/SpringCloudLearn/springCloud-provider-dept-8001/springCloud-provider-dept-8001.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-09-test/springboot-09-test.iml" filepath="$PROJECT_DIR$/springboot-09-test/springboot-09-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mail-demos/springboot-mail-demo01/springboot-mail-demo01.iml" filepath="$PROJECT_DIR$/springboot-mail-demos/springboot-mail-demo01/springboot-mail-demo01.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mail-demos/springboot-mail-demos.iml" filepath="$PROJECT_DIR$/springboot-mail-demos/springboot-mail-demos.iml" />
