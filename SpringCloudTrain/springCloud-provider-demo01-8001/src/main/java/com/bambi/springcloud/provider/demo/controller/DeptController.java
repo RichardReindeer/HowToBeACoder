@@ -2,9 +2,7 @@ package com.bambi.springcloud.provider.demo.controller;
 
 import com.bambi.spring.api.pojo.Dept;
 import com.bambi.springcloud.provider.demo.service.IDeptService;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -24,7 +22,7 @@ public class DeptController {
     }
 
     @PostMapping("/dept/add")
-    public boolean add(Dept dept){
+    public boolean add(@RequestBody Dept dept){
         return deptService.addDept(dept);
     }
 

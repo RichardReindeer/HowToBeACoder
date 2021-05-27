@@ -10,6 +10,7 @@
     <modules>
         <module>springCloud-api-demo01</module>
         <module>springCloud-provider-demo01-8001</module>
+        <module>springCloud-consumer-demo01-80</module>
     </modules>
 
     <properties>

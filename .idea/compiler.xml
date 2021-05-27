@@ -30,6 +30,7 @@
         <module name="springCloud-api" />
         <module name="provider-server" />
         <module name="springCloud-provider-demo01-8001" />
+        <module name="springCloud-consumer-demo01-80" />
         <module name="NettyLearn" />
         <module name="springboot-mail-demo01" />
         <module name="dubboZookeeper-server" />
@@ -41,7 +42,7 @@
       <module name="dubboZookeeper-client" target="11" />
       <module name="dubboZookeeper-server" target="11" />
       <module name="HelloShiro" target="11" />
-      <module name="NettyLearn" target="1.5" />
+      <module name="NettyLearn" target="11" />
       <module name="provider-server" target="11" />
       <module name="shiro-springBoot" target="11" />
       <module name="shiro-springboot" target="11" />
@@ -64,6 +65,7 @@
       <module name="springboot-swagger-demo02" target="11" />
       <module name="springCloud-api" target="11" />
       <module name="springCloud-api-demo01" target="11" />
+      <module name="springCloud-consumer-demo01-80" target="11" />
       <module name="springCloud-consumer-dept-80" target="11" />
       <module name="springCloud-provider-demo01-8001" target="11" />
       <module name="springCloud-provider-dept-8001" target="11" />
