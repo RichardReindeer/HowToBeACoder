@@ -12,6 +12,7 @@
         <module name="dubboZookeeper-client" />
         <module name="springCloud-provider-demo02-8801" />
         <module name="springboot-shiro" />
+        <module name="springCloud-eureka-7001" />
         <module name="springboot-send-demo01" />
         <module name="springboot-swagger-Demo01" />
         <module name="springCloud-provider-dept-8001" />
@@ -70,6 +71,7 @@
       <module name="springCloud-consumer-demo01-80" target="11" />
       <module name="springCloud-consumer-demo02-80" target="11" />
       <module name="springCloud-consumer-dept-80" target="11" />
+      <module name="springCloud-eureka-7001" target="11" />
       <module name="springCloud-provider-demo01-8001" target="11" />
       <module name="springCloud-provider-demo02-8801" target="11" />
       <module name="springCloud-provider-dept-8001" target="11" />
