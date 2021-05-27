@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.eclipse.jetty:jetty-annotations:9.4.38.v20210224">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../Maven_repositry/org/eclipse/jetty/jetty-annotations/9.4.38.v20210224/jetty-annotations-9.4.38.v20210224.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Maven_repositry/org/eclipse/jetty/jetty-annotations/9.4.38.v20210224/jetty-annotations-9.4.38.v20210224.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/../../Maven_repositry/org/eclipse/jetty/jetty-annotations/9.4.38.v20210224/jetty-annotations-9.4.38.v20210224-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Maven_repositry/org/eclipse/jetty/jetty-annotations/9.4.38.v20210224/jetty-annotations-9.4.38.v20210224-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../Maven_repositry/org/eclipse/jetty/jetty-annotations/9.4.38.v20210224/jetty-annotations-9.4.38.v20210224-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Maven_repositry/org/eclipse/jetty/jetty-annotations/9.4.38.v20210224/jetty-annotations-9.4.38.v20210224-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
