@@ -21,6 +21,7 @@
         <module name="springboot-mail-demos" />
         <module name="springCloud-consumer-demo02-80" />
         <module name="springCloud-consumer-dept-80" />
+        <module name="springCloud-eureka-demo01" />
         <module name="springboot-shiro-demo04" />
         <module name="springboot-shiro-demo03" />
         <module name="springboot-shiro-demo06" />
@@ -72,6 +73,7 @@
       <module name="springCloud-consumer-demo02-80" target="11" />
       <module name="springCloud-consumer-dept-80" target="11" />
       <module name="springCloud-eureka-7001" target="11" />
+      <module name="springCloud-eureka-demo01" target="11" />
       <module name="springCloud-provider-demo01-8001" target="11" />
       <module name="springCloud-provider-demo02-8801" target="11" />
       <module name="springCloud-provider-dept-8001" target="11" />
