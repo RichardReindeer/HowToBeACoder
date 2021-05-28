@@ -22,3 +22,16 @@ spring:
     url: jdbc:mysql://localhost:3306/springclouddb01?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&rewriteBatchedStatements=true&allowPublicKeyRetrieval=true
     username: root
     password: Reindeer
+
+#配置eureka的配置 配置服务注册到哪里
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
+  instance:
+    #修改eureka上的默认描述信息
+    instance-id: springcloud-provider-dept-8001
+
+#填写监控信息
+info:
+  app.name: bambi
