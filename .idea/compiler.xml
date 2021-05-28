@@ -19,8 +19,10 @@
         <module name="springboot-swagger-Demo01" />
         <module name="springCloud-provider-dept-8001" />
         <module name="consumer-server" />
+        <module name="springCloud-provider-dept-8002" />
         <module name="springboot-swagger-demo02" />
         <module name="springboot-mail-demos" />
+        <module name="springCloud-provider-dept-8003" />
         <module name="springCloud-consumer-demo02-80" />
         <module name="springCloud-consumer-dept-80" />
         <module name="springCloud-eureka-demo01" />
@@ -81,6 +83,8 @@
       <module name="springCloud-provider-demo01-8001" target="11" />
       <module name="springCloud-provider-demo02-8801" target="11" />
       <module name="springCloud-provider-dept-8001" target="11" />
+      <module name="springCloud-provider-dept-8002" target="11" />
+      <module name="springCloud-provider-dept-8003" target="11" />
       <module name="SpringCloudLearn" target="11" />
       <module name="SpringCloudTrain" target="11" />
       <module name="SpringSwaggerDemo" target="11" />
