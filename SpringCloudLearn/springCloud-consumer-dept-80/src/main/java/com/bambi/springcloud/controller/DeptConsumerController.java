@@ -22,9 +22,11 @@ public class DeptConsumerController {
     @Resource
     private RestTemplate restTemplate;//提供多种便捷访问远程http服务的方法，简单的restFul服务模板
 
+    //通过Ribbon去注册时，服务的地址应该是一个变量，通过服务名去访问(Eureka上的名字)
+
     //因为没有业务逻辑层，所以想要获取对象信息需要去别的服务中拿，http://localhost:8001/dept/list ....
     //因为前面的内容是固定的，所以可以设置一个常量
-    private static final String REST_URL_PREFIX = "http://localhost:8001";
+    private static final String REST_URL_PREFIX = "http://springCloud-provider-dept-8001";
 
 
     //与RPC不同的是，不再需要使用DubboReference来远程调用了，只需要使用RestTemplate，用url去请求,

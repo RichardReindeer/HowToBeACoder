@@ -31,6 +31,7 @@ eureka:
   instance:
     #修改eureka上的默认描述信息
     instance-id: springcloud-provider-dept-8001
+    prefer-ip-address: true
 
 #填写监控信息
 info:
