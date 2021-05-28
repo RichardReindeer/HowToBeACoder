@@ -1,4 +1,4 @@
-package ocm.bambi.springcloud;
+package com.bambi.springcloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
