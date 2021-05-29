@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/Spring-08-Shiro/Spring-08-Shiro.iml" filepath="$PROJECT_DIR$/Spring-08-Shiro/Spring-08-Shiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudLearn/SpringCloudLearn.iml" filepath="$PROJECT_DIR$/SpringCloudLearn/SpringCloudLearn.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudTrain/SpringCloudTrain.iml" filepath="$PROJECT_DIR$/SpringCloudTrain/SpringCloudTrain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudTrain02/SpringCloudTrain02.iml" filepath="$PROJECT_DIR$/SpringCloudTrain02/SpringCloudTrain02.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringSwaggerDemo/SpringSwaggerDemo.iml" filepath="$PROJECT_DIR$/SpringSwaggerDemo/SpringSwaggerDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-08-Shiro/Springboot-shiro-Demo/Springboot-shiro-Demo.iml" filepath="$PROJECT_DIR$/Spring-08-Shiro/Springboot-shiro-Demo/Springboot-shiro-Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dubbo+zooKeeper/consumer-server/consumer-server.iml" filepath="$PROJECT_DIR$/Dubbo+zooKeeper/consumer-server/consumer-server.iml" />
@@ -29,6 +30,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringCloudLearn/springCloud-eureka-7002/springCloud-eureka-7002.iml" filepath="$PROJECT_DIR$/SpringCloudLearn/springCloud-eureka-7002/springCloud-eureka-7002.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudLearn/springCloud-eureka-7003/springCloud-eureka-7003.iml" filepath="$PROJECT_DIR$/SpringCloudLearn/springCloud-eureka-7003/springCloud-eureka-7003.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudTrain/springCloud-eureka-demo01/springCloud-eureka-demo01.iml" filepath="$PROJECT_DIR$/SpringCloudTrain/springCloud-eureka-demo01/springCloud-eureka-demo01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudTrain/springCloud-eureka-demo02/springCloud-eureka-demo02-1.iml" filepath="$PROJECT_DIR$/SpringCloudTrain/springCloud-eureka-demo02/springCloud-eureka-demo02-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudTrain/springCloud-provider-demo01-8001/springCloud-provider-demo01-8001.iml" filepath="$PROJECT_DIR$/SpringCloudTrain/springCloud-provider-demo01-8001/springCloud-provider-demo01-8001.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudTrain/springCloud-provider-demo02-8801/springCloud-provider-demo02-8801.iml" filepath="$PROJECT_DIR$/SpringCloudTrain/springCloud-provider-demo02-8801/springCloud-provider-demo02-8801.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudLearn/springCloud-provider-dept-8001/springCloud-provider-dept-8001.iml" filepath="$PROJECT_DIR$/SpringCloudLearn/springCloud-provider-dept-8001/springCloud-provider-dept-8001.iml" />
@@ -47,6 +49,9 @@
       <module fileurl="file://$PROJECT_DIR$/Spring-08-Shiro/springboot-shiro-demo08/springboot-shiro-demo08.iml" filepath="$PROJECT_DIR$/Spring-08-Shiro/springboot-shiro-demo08/springboot-shiro-demo08.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringSwaggerDemo/springboot-swagger-Demo01/springboot-swagger-Demo01.iml" filepath="$PROJECT_DIR$/SpringSwaggerDemo/springboot-swagger-Demo01/springboot-swagger-Demo01.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringSwaggerDemo/springboot-swagger-demo02/springboot-swagger-demo02.iml" filepath="$PROJECT_DIR$/SpringSwaggerDemo/springboot-swagger-demo02/springboot-swagger-demo02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudTrain02/springcloud-demo01-api/springcloud-demo01-api.iml" filepath="$PROJECT_DIR$/SpringCloudTrain02/springcloud-demo01-api/springcloud-demo01-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudTrain02/springcloud-demo01-eurekaServer/springcloud-demo01-eurekaServer.iml" filepath="$PROJECT_DIR$/SpringCloudTrain02/springcloud-demo01-eurekaServer/springcloud-demo01-eurekaServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudTrain02/springcloud-demo01-provider01-8801/springcloud-demo01-provider01-8801.iml" filepath="$PROJECT_DIR$/SpringCloudTrain02/springcloud-demo01-provider01-8801/springcloud-demo01-provider01-8801.iml" />
     </modules>
   </component>
 </project>

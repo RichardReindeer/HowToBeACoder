@@ -28,7 +28,17 @@
         <option value="$PROJECT_DIR$/Dubbo+zooKeeperDemo/Dubbo-Zookeeper-Demo01/dubboZookeeper-client/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloudLearn/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloudTrain/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloudTrain02/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloudTrain02/springcloud-demo01-eurekaServer/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloudTrain02/springcloud-demo01-provider01-8801/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloudTrain02/springcloud-demo01-api/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/SpringCloudTrain/springCloud-eureka-demo02-1/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloudTrain/springCloud-provider-demo03-8801/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">

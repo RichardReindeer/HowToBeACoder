@@ -18,6 +18,7 @@
         <module name="springboot-send-demo01" />
         <module name="springboot-swagger-Demo01" />
         <module name="springCloud-provider-dept-8001" />
+        <module name="springCloud-eureka-demo02-1" />
         <module name="consumer-server" />
         <module name="springCloud-provider-dept-8002" />
         <module name="springboot-swagger-demo02" />
@@ -25,6 +26,7 @@
         <module name="springCloud-provider-dept-8003" />
         <module name="springCloud-consumer-demo02-80" />
         <module name="springCloud-consumer-dept-80" />
+        <module name="springcloud-demo01-eurekaServer" />
         <module name="springCloud-eureka-demo01" />
         <module name="springboot-shiro-demo04" />
         <module name="springboot-shiro-demo03" />
@@ -36,12 +38,14 @@
         <module name="SpringSwaggerDemo" />
         <module name="HelloShiro" />
         <module name="springCloud-api" />
+        <module name="springcloud-demo01-provider01-8801" />
         <module name="provider-server" />
         <module name="springCloud-provider-demo01-8001" />
         <module name="springCloud-consumer-demo01-80" />
         <module name="NettyLearn" />
         <module name="springboot-mail-demo01" />
         <module name="dubboZookeeper-server" />
+        <module name="springcloud-demo01-api" />
         <module name="springboot-shiro-demo02" />
       </profile>
     </annotationProcessing>
@@ -76,17 +80,24 @@
       <module name="springCloud-consumer-demo01-80" target="11" />
       <module name="springCloud-consumer-demo02-80" target="11" />
       <module name="springCloud-consumer-dept-80" target="11" />
+      <module name="springcloud-demo01-api" target="11" />
+      <module name="springcloud-demo01-eurekaServer" target="11" />
+      <module name="springcloud-demo01-provider01-8801" target="11" />
       <module name="springCloud-eureka-7001" target="11" />
       <module name="springCloud-eureka-7002" target="11" />
       <module name="springCloud-eureka-7003" target="11" />
       <module name="springCloud-eureka-demo01" target="11" />
+      <module name="springCloud-eureka-demo02" target="11" />
+      <module name="springCloud-eureka-demo02-1" target="11" />
       <module name="springCloud-provider-demo01-8001" target="11" />
       <module name="springCloud-provider-demo02-8801" target="11" />
+      <module name="springCloud-provider-demo03-8801" target="11" />
       <module name="springCloud-provider-dept-8001" target="11" />
       <module name="springCloud-provider-dept-8002" target="11" />
       <module name="springCloud-provider-dept-8003" target="11" />
       <module name="SpringCloudLearn" target="11" />
       <module name="SpringCloudTrain" target="11" />
+      <module name="SpringCloudTrain02" target="11" />
       <module name="SpringSwaggerDemo" target="11" />
       <module name="wrapper (1)" target="11" />
       <module name="wrapper (2)" target="11" />
@@ -119,6 +130,9 @@
       <module name="springboot-shiro-demo08" options="-parameters" />
       <module name="springboot-swagger-Demo01" options="-parameters" />
       <module name="springboot-swagger-demo02" options="-parameters" />
+      <module name="springcloud-demo01-api" options="" />
+      <module name="springcloud-demo01-eurekaServer" options="" />
+      <module name="springcloud-demo01-provider01-8801" options="" />
     </option>
   </component>
 </project>
