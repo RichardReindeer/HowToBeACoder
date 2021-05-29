@@ -14,8 +14,6 @@
         <module>springCloud-provider-demo02-8801</module>
         <module>springCloud-consumer-demo02-80</module>
         <module>springCloud-eureka-demo01</module>
-        <module>springCloud-eureka-demo02-1</module>
-        <module>springCloud-provider-demo03-8801</module>
     </modules>
 
     <properties>

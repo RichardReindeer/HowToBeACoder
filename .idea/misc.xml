@@ -33,6 +33,9 @@
         <option value="$PROJECT_DIR$/SpringCloudTrain02/springcloud-demo01-provider01-8801/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloudTrain02/springcloud-demo01-api/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloudTrain02/springcloud-demo01-consumer01-80/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMybatisDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloudTrain02/spring-cloud-demo01-provider02-8802/pom.xml" />
+        <option value="$PROJECT_DIR$/../TrueIDEA/springCloudTrain03/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

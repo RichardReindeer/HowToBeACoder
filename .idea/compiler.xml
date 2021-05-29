@@ -15,6 +15,7 @@
         <module name="springCloud-eureka-7002" />
         <module name="springboot-shiro" />
         <module name="springCloud-eureka-7001" />
+        <module name="springcloud-demo03-api" />
         <module name="springboot-send-demo01" />
         <module name="springboot-swagger-Demo01" />
         <module name="springCloud-provider-dept-8001" />
@@ -26,7 +27,6 @@
         <module name="springCloud-provider-dept-8003" />
         <module name="springCloud-consumer-demo02-80" />
         <module name="springCloud-consumer-dept-80" />
-        <module name="springcloud-demo01-eurekaServer" />
         <module name="springCloud-eureka-demo01" />
         <module name="springboot-shiro-demo04" />
         <module name="springboot-shiro-demo03" />
@@ -38,15 +38,14 @@
         <module name="SpringSwaggerDemo" />
         <module name="HelloShiro" />
         <module name="springCloud-api" />
-        <module name="springcloud-demo01-provider01-8801" />
         <module name="provider-server" />
         <module name="springCloud-provider-demo01-8001" />
         <module name="springCloud-consumer-demo01-80" />
-        <module name="springcloud-demo01-consumer01-80" />
         <module name="NettyLearn" />
         <module name="springboot-mail-demo01" />
+        <module name="springcloud-demo03-provider-8801" />
         <module name="dubboZookeeper-server" />
-        <module name="springcloud-demo01-api" />
+        <module name="SpringMybatisDemo" />
         <module name="springboot-shiro-demo02" />
       </profile>
     </annotationProcessing>
@@ -60,6 +59,7 @@
       <module name="shiro-springBoot" target="11" />
       <module name="shiro-springboot" target="11" />
       <module name="Spring-08-Shiro" target="11" />
+      <module name="spring-cloud-demo01-provider02-8802" target="11" />
       <module name="spring-swagger" target="11" />
       <module name="springboot-09-test" target="11" />
       <module name="springboot-mail-demo01" target="11" />
@@ -85,6 +85,8 @@
       <module name="springcloud-demo01-consumer01-80" target="11" />
       <module name="springcloud-demo01-eurekaServer" target="11" />
       <module name="springcloud-demo01-provider01-8801" target="11" />
+      <module name="springcloud-demo03-api" target="11" />
+      <module name="springcloud-demo03-provider-8801" target="11" />
       <module name="springCloud-eureka-7001" target="11" />
       <module name="springCloud-eureka-7002" target="11" />
       <module name="springCloud-eureka-7003" target="11" />
@@ -99,7 +101,10 @@
       <module name="springCloud-provider-dept-8003" target="11" />
       <module name="SpringCloudLearn" target="11" />
       <module name="SpringCloudTrain" target="11" />
+      <module name="springCloudTrain02" target="11" />
       <module name="SpringCloudTrain02" target="11" />
+      <module name="springCloudTrain03" target="11" />
+      <module name="SpringMybatisDemo" target="11" />
       <module name="SpringSwaggerDemo" target="11" />
       <module name="wrapper (1)" target="11" />
       <module name="wrapper (2)" target="11" />
@@ -109,6 +114,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringMybatisDemo" options="-parameters" />
       <module name="SpringSwaggerDemo" options="-parameters" />
       <module name="Springboot-shiro-Demo" options="-parameters" />
       <module name="consumer-server" options="-parameters" />
@@ -117,6 +123,7 @@
       <module name="provider-server" options="-parameters" />
       <module name="shiro-springBoot" options="-parameters" />
       <module name="shiro-springboot" options="-parameters" />
+      <module name="spring-cloud-demo01-provider02-8802" options="-parameters" />
       <module name="spring-swagger" options="-parameters" />
       <module name="springboot-09-test" options="-parameters" />
       <module name="springboot-mail-demo01" options="-parameters" />
