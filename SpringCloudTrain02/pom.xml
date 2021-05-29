@@ -21,6 +21,7 @@
         <module>springcloud-demo01-eurekaServer</module>
         <module>springcloud-demo01-provider01-8801</module>
         <module>springcloud-demo01-api</module>
+        <module>springcloud-demo01-consumer01-80</module>
     </modules>
 
     <!--打包方式   pom打包方式-->
