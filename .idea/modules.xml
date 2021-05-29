@@ -50,6 +50,8 @@
       <module fileurl="file://$PROJECT_DIR$/SpringSwaggerDemo/springboot-swagger-Demo01/springboot-swagger-Demo01.iml" filepath="$PROJECT_DIR$/SpringSwaggerDemo/springboot-swagger-Demo01/springboot-swagger-Demo01.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringSwaggerDemo/springboot-swagger-demo02/springboot-swagger-demo02.iml" filepath="$PROJECT_DIR$/SpringSwaggerDemo/springboot-swagger-demo02/springboot-swagger-demo02.iml" />
       <module fileurl="file://$PROJECT_DIR$/../TrueIDEA/springCloudTrain03/springcloud-demo03-api/springcloud-demo03-api.iml" filepath="$PROJECT_DIR$/../TrueIDEA/springCloudTrain03/springcloud-demo03-api/springcloud-demo03-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TrueIDEA/springCloudTrain03/springcloud-demo03-consumer-80/springcloud-demo03-consumer-80.iml" filepath="$PROJECT_DIR$/../TrueIDEA/springCloudTrain03/springcloud-demo03-consumer-80/springcloud-demo03-consumer-80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TrueIDEA/springCloudTrain03/springcloud-demo03-eurekaServer/springcloud-demo03-eurekaServer.iml" filepath="$PROJECT_DIR$/../TrueIDEA/springCloudTrain03/springcloud-demo03-eurekaServer/springcloud-demo03-eurekaServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/../TrueIDEA/springCloudTrain03/springcloud-demo03-provider-8801/springcloud-demo03-provider-8801.iml" filepath="$PROJECT_DIR$/../TrueIDEA/springCloudTrain03/springcloud-demo03-provider-8801/springcloud-demo03-provider-8801.iml" />
     </modules>
   </component>
