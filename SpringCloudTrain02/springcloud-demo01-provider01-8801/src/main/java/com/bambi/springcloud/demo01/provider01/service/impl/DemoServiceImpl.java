@@ -1,6 +1,4 @@
 package com.bambi.springcloud.demo01.provider01.service.impl;
-
-
 import com.bambi.springcloud.demo01.api.vo.Dept;
 import com.bambi.springcloud.demo01.provider01.mapper.DeptMapper;
 import com.bambi.springcloud.demo01.provider01.service.IDemoService;
