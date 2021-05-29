@@ -23,6 +23,12 @@
             <artifactId>lombok</artifactId>
         </dependency>
 
+        <!--在api 和consumer 中放置feign依赖-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-feign</artifactId>
+            <version>1.4.7.RELEASE</version>
+        </dependency>
 
     </dependencies>
 </project>

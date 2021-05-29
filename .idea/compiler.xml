@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-09-test" />
+        <module name="springcloud-consumer-dept-feign" />
         <module name="spring-swagger" />
         <module name="dubboZookeeper-client" />
         <module name="springCloud-provider-demo02-8801" />
@@ -83,6 +84,7 @@
       <module name="springCloud-consumer-demo01-80" target="11" />
       <module name="springCloud-consumer-demo02-80" target="11" />
       <module name="springCloud-consumer-dept-80" target="11" />
+      <module name="springcloud-consumer-dept-feign" target="11" />
       <module name="springcloud-demo01-api" target="11" />
       <module name="springcloud-demo01-consumer01-80" target="11" />
       <module name="springcloud-demo01-eurekaServer" target="11" />
