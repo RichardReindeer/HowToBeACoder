@@ -11,6 +11,7 @@
         <module>springCloud-demo04-api</module>
         <module>springcloud-demo04-eurekaServer</module>
         <module>springcloud-demo04-provider01-8801</module>
+        <module>springcloud-demo04-consumer01-80</module>
     </modules>
 
     <properties>

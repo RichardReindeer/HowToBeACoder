@@ -37,6 +37,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringCloudLearn/springCloud-provider-dept-8001/springCloud-provider-dept-8001.iml" filepath="$PROJECT_DIR$/SpringCloudLearn/springCloud-provider-dept-8001/springCloud-provider-dept-8001.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudLearn/springCloud-provider-dept-8002/springCloud-provider-dept-8002.iml" filepath="$PROJECT_DIR$/SpringCloudLearn/springCloud-provider-dept-8002/springCloud-provider-dept-8002.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudLearn/springCloud-provider-dept-8003/springCloud-provider-dept-8003.iml" filepath="$PROJECT_DIR$/SpringCloudLearn/springCloud-provider-dept-8003/springCloud-provider-dept-8003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudLearn/springCloud-provider-hystrix-dept-8001/springCloud-provider-hystrix-dept-8001.iml" filepath="$PROJECT_DIR$/SpringCloudLearn/springCloud-provider-hystrix-dept-8001/springCloud-provider-hystrix-dept-8001.iml" />
       <module fileurl="file://$PROJECT_DIR$/springCloudTrain03/springCloudTrain03.iml" filepath="$PROJECT_DIR$/springCloudTrain03/springCloudTrain03.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-09-test/springboot-09-test.iml" filepath="$PROJECT_DIR$/springboot-09-test/springboot-09-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mail-demos/springboot-mail-demo01/springboot-mail-demo01.iml" filepath="$PROJECT_DIR$/springboot-mail-demos/springboot-mail-demo01/springboot-mail-demo01.iml" />
@@ -56,6 +57,7 @@
       <module fileurl="file://$PROJECT_DIR$/springCloudTrain03/springcloud-demo03-consumer-80/springcloud-demo03-consumer-80.iml" filepath="$PROJECT_DIR$/springCloudTrain03/springcloud-demo03-consumer-80/springcloud-demo03-consumer-80.iml" />
       <module fileurl="file://$PROJECT_DIR$/springCloudTrain03/springcloud-demo03-eurekaServer/springcloud-demo03-eurekaServer.iml" filepath="$PROJECT_DIR$/springCloudTrain03/springcloud-demo03-eurekaServer/springcloud-demo03-eurekaServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/springCloudTrain03/springcloud-demo03-provider-8801/springcloud-demo03-provider-8801.iml" filepath="$PROJECT_DIR$/springCloudTrain03/springcloud-demo03-provider-8801/springcloud-demo03-provider-8801.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudLoadTrain04/springcloud-demo04-consumer01-80/springcloud-demo04-consumer01-80.iml" filepath="$PROJECT_DIR$/SpringCloudLoadTrain04/springcloud-demo04-consumer01-80/springcloud-demo04-consumer01-80.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudLoadTrain04/springcloud-demo04-eurekaServer/springcloud-demo04-eurekaServer.iml" filepath="$PROJECT_DIR$/SpringCloudLoadTrain04/springcloud-demo04-eurekaServer/springcloud-demo04-eurekaServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudLoadTrain04/springcloud-demo04-provider01-8801/springcloud-demo04-provider01-8801.iml" filepath="$PROJECT_DIR$/SpringCloudLoadTrain04/springcloud-demo04-provider01-8801/springcloud-demo04-provider01-8801.iml" />
     </modules>
