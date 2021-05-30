@@ -11,7 +11,7 @@
         insert into dept (dept_name,db_source) value(#{deptName},DATABASE());
     </insert>
 
-    <select id="queryById" resultType="com.bambi.springcloud.api.vo.Dept" parameterType="Long">
-        select dept_no,dept_name,db_source from dept where dept_id = #{deptId};
+    <select id="queryDeptById" resultType="com.bambi.springcloud.api.vo.Dept" parameterType="Long">
+        select dept_no,dept_name,db_source from dept where dept_no = #{deptId};
     </select>
 </mapper>

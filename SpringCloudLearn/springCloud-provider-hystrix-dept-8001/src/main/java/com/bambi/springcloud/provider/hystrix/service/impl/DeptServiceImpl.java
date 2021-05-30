@@ -1,8 +1,8 @@
 package com.bambi.springcloud.provider.hystrix.service.impl;
 
 import com.bambi.springcloud.api.vo.Dept;
-import com.bambi.springcloud.provider.mapper.DeptMapper;
-import com.bambi.springcloud.provider.service.IDeptService;
+import com.bambi.springcloud.provider.hystrix.mapper.DeptMapper;
+import com.bambi.springcloud.provider.hystrix.service.IDeptService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

@@ -2,12 +2,10 @@ package com.bambi.springcloud.provider.hystrix.controller;
 
 import com.bambi.springcloud.api.vo.Dept;
 import com.bambi.springcloud.provider.hystrix.service.IDeptService;
-import org.springframework.cloud.client.ServiceInstance;
-import org.springframework.cloud.client.discovery.DiscoveryClient;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
-import java.util.List;
 
 /**
  * 提供Restful服务
@@ -15,39 +13,25 @@ import java.util.List;
 @RestController
 public class DeptController {
 
-    @Resource
-    IDeptService service;
+   @Resource
+    private IDeptService deptService;
 
-    //获取这些类的信息,得到具体的微服务
-    @Resource
-    private DiscoveryClient client;
+   //HystrixCommand,点开看源码； 设置一个fallbackMethod，指执行出现异常后，选择去执行的另一种方法
+   @GetMapping("/dept/get/{id}")
+   @HystrixCommand(fallbackMethod = "HystrixGet")
+   public Dept get(@PathVariable("id") Long id){
+       //get到的Id可能是空的，需要进行非空判断
+       Dept dept = deptService.queryDeptById(id);
+       System.out.println(id);
+       if(dept==null){
+           throw new RuntimeException("id->"+id+"不存在该用户，信息无法找到");
+       }
+       return dept;
+   }
 
-    @PostMapping("/dept/add")
-    public boolean addDept( @RequestBody Dept dept){
-        return service.addDept(dept);
-    }
 
-    @GetMapping("/dept/get/{id}")
-    public Dept get(@PathVariable("id") Long id){
-        return service.queryDeptById(id);
-    }
-
-    @GetMapping("/dept/list")
-    public List<Dept> queryAll(){
-        return service.queryAll();
-    }
-
-    @GetMapping("/dept/discovery")
-    //注册进来的微服务，获取一些信息
-    public Object discovery(){
-        //获得微服务列表的清单
-        List<String> services = client.getServices();
-        services.forEach(s -> System.out.println(s));
-        //得到一个具体的微服务信息
-        //需要传入服务实例id applicationName
-        List<ServiceInstance> instances = client.getInstances("SPRINGCLOUD-PROVIDER-DEPT-8001");
-        instances.forEach(serviceInstance -> System.out.println("serviceInstance's host = " + serviceInstance.getHost()));
-
-        return this.client;
+   //备选方案  当抛出异常后去调用的方法
+    public Dept HystrixGet(Long id){
+        return new Dept().setDeptName("这是一个不存在的Id,createdBy Hystrix");
     }
 }

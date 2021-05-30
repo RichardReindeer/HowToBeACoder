@@ -12,7 +12,6 @@ import org.springframework.context.annotation.ComponentScan;
  */
 @SpringBootApplication
 @EnableEurekaClient
-
 //需要添加fegin注解  参数为要扫描的包
 @EnableFeignClients(basePackages = {"com.bambi.springcloud"})
 public class DeptConsumerFeign_80 {
