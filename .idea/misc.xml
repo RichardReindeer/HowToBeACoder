@@ -40,6 +40,7 @@
         <option value="$PROJECT_DIR$/springCloudDemo05/pom.xml" />
         <option value="$PROJECT_DIR$/springCloudDemo05/springCloud-demo-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloudLearn/springcloud-consumer-hystrix-disboard/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloudDemo01/pom.xml" />
       </list>
     </option>
   </component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bambi.springcloud.provider.mapper.DeptMapper">
+    <select id="getDeptByNo" resultType="com.bambi.demo.springcloud.vo.Dept" parameterType="Long">
+        select * from dept where dept_No = #{deptNo};
+    </select>
+
+    <select id="list" resultType="com.bambi.demo.springcloud.vo.Dept">
+        select * from dept;
+    </select>
+    <insert id="add" parameterType="com.bambi.demo.springcloud.vo.Dept">
+        insert into dept (dept_name,db_source) value (#{deptName},DATABASE());
+    </insert>
+</mapper>

@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-demo-eurekaServer-01" />
         <module name="springboot-09-test" />
         <module name="springcloud-consumer-dept-feign" />
         <module name="spring-swagger" />
@@ -16,6 +17,7 @@
         <module name="springCloud-eureka-7002" />
         <module name="springboot-shiro" />
         <module name="springCloud-eureka-7001" />
+        <module name="springcloud-demo-consumer01" />
         <module name="springboot-send-demo01" />
         <module name="springboot-swagger-Demo01" />
         <module name="springCloud-provider-dept-8001" />
@@ -26,6 +28,7 @@
         <module name="springboot-mail-demos" />
         <module name="springCloud-provider-dept-8003" />
         <module name="springCloud-consumer-demo02-80" />
+        <module name="springcloud-demo-provider-01-" />
         <module name="springCloud-consumer-dept-80" />
         <module name="springCloud-eureka-demo01" />
         <module name="springboot-shiro-demo04" />
@@ -45,6 +48,7 @@
         <module name="springCloud-consumer-demo01-80" />
         <module name="NettyLearn" />
         <module name="springboot-mail-demo01" />
+        <module name="springcloud-demo-api" />
         <module name="dubboZookeeper-server" />
         <module name="SpringMybatisDemo" />
         <module name="springboot-shiro-demo02" />
@@ -84,6 +88,10 @@
       <module name="springCloud-consumer-dept-80" target="11" />
       <module name="springcloud-consumer-dept-feign" target="11" />
       <module name="springcloud-consumer-hystrix-disboard" target="11" />
+      <module name="springcloud-demo-api" target="11" />
+      <module name="springcloud-demo-consumer01" target="11" />
+      <module name="springcloud-demo-eurekaServer-01" target="11" />
+      <module name="springcloud-demo-provider-01-" target="11" />
       <module name="springcloud-demo01-api" target="11" />
       <module name="springcloud-demo01-consumer01-80" target="11" />
       <module name="springcloud-demo01-eurekaServer" target="11" />
@@ -109,6 +117,7 @@
       <module name="springCloud-provider-dept-8002" target="11" />
       <module name="springCloud-provider-dept-8003" target="11" />
       <module name="springCloud-provider-hystrix-dept-8001" target="11" />
+      <module name="SpringCloudDemo01" target="11" />
       <module name="SpringCloudLearn" target="11" />
       <module name="SpringCloudLoadTrain04" target="11" />
       <module name="SpringCloudTrain" target="11" />
@@ -125,6 +134,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringCloudDemo01" options="-parameters" />
       <module name="SpringMybatisDemo" options="-parameters" />
       <module name="SpringSwaggerDemo" options="-parameters" />
       <module name="Springboot-shiro-Demo" options="-parameters" />
@@ -150,6 +160,10 @@
       <module name="springboot-shiro-demo08" options="-parameters" />
       <module name="springboot-swagger-Demo01" options="-parameters" />
       <module name="springboot-swagger-demo02" options="-parameters" />
+      <module name="springcloud-demo-api" options="-parameters" />
+      <module name="springcloud-demo-consumer01" options="-parameters" />
+      <module name="springcloud-demo-eurekaServer-01" options="-parameters" />
+      <module name="springcloud-demo-provider-01-" options="-parameters" />
       <module name="springcloud-demo01-api" options="" />
       <module name="springcloud-demo01-consumer01-80" options="" />
       <module name="springcloud-demo01-eurekaServer" options="" />
