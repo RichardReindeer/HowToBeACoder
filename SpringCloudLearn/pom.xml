@@ -18,6 +18,7 @@
         <module>springCloud-provider-dept-8003</module>
         <module>springcloud-consumer-dept-feign</module>
         <module>springCloud-provider-hystrix-dept-8001</module>
+        <module>springcloud-consumer-hystrix-disboard</module>
     </modules>
 
     <properties>

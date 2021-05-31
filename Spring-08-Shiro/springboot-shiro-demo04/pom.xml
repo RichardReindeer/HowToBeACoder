@@ -82,11 +82,13 @@
             <artifactId>lombok</artifactId>
             <version>1.18.2</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.shiro/shiro-core -->
         <dependency>
-            <groupId>Maven_repositry.org.apache.shiro</groupId>
+            <groupId>org.apache.shiro</groupId>
             <artifactId>shiro-core</artifactId>
-            <version>1.4.1</version>
+            <version>1.7.1</version>
         </dependency>
+
     </dependencies>
 
     <build>

@@ -37,13 +37,10 @@
         <option value="$PROJECT_DIR$/SpringCloudTrain02/spring-cloud-demo01-provider02-8802/pom.xml" />
         <option value="$PROJECT_DIR$/../TrueIDEA/springCloudTrain03/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloudLoadTrain04/pom.xml" />
+        <option value="$PROJECT_DIR$/springCloudDemo05/pom.xml" />
+        <option value="$PROJECT_DIR$/springCloudDemo05/springCloud-demo-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloudLearn/springcloud-consumer-hystrix-disboard/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/SpringCloudTrain/springCloud-eureka-demo02-1/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringCloudTrain/springCloud-provider-demo03-8801/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">

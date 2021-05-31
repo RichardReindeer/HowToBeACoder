@@ -10,8 +10,8 @@
         <module name="springboot-09-test" />
         <module name="springcloud-consumer-dept-feign" />
         <module name="spring-swagger" />
-        <module name="springCloud-provider-demo02-8801" />
         <module name="dubboZookeeper-client" />
+        <module name="springCloud-provider-demo02-8801" />
         <module name="springCloud-eureka-7003" />
         <module name="springCloud-eureka-7002" />
         <module name="springboot-shiro" />
@@ -27,23 +27,20 @@
         <module name="springCloud-provider-dept-8003" />
         <module name="springCloud-consumer-demo02-80" />
         <module name="springCloud-consumer-dept-80" />
-        <module name="springcloud-demo04-consumer01-80" />
         <module name="springCloud-eureka-demo01" />
         <module name="springboot-shiro-demo04" />
         <module name="springboot-shiro-demo03" />
         <module name="springboot-shiro-demo06" />
         <module name="springboot-shiro-demo05" />
-        <module name="springCloud-demo04-api" />
         <module name="springboot-shiro-demo08" />
         <module name="springCloud-api-demo01" />
         <module name="Springboot-shiro-Demo" />
-        <module name="springcloud-demo04-eurekaServer" />
-        <module name="springcloud-demo04-provider01-8801" />
         <module name="SpringSwaggerDemo" />
         <module name="springCloud-provider-hystrix-dept-8001" />
         <module name="HelloShiro" />
         <module name="springCloud-api" />
         <module name="provider-server" />
+        <module name="springcloud-consumer-hystrix-disboard" />
         <module name="springCloud-provider-demo01-8001" />
         <module name="springCloud-consumer-demo01-80" />
         <module name="NettyLearn" />
@@ -58,7 +55,7 @@
       <module name="dubboZookeeper-client" target="11" />
       <module name="dubboZookeeper-server" target="11" />
       <module name="HelloShiro" target="11" />
-      <module name="NettyLearn" target="11" />
+      <module name="NettyLearn" target="1.5" />
       <module name="provider-server" target="11" />
       <module name="shiro-springBoot" target="11" />
       <module name="shiro-springboot" target="11" />
@@ -86,6 +83,7 @@
       <module name="springCloud-consumer-demo02-80" target="11" />
       <module name="springCloud-consumer-dept-80" target="11" />
       <module name="springcloud-consumer-dept-feign" target="11" />
+      <module name="springcloud-consumer-hystrix-disboard" target="11" />
       <module name="springcloud-demo01-api" target="11" />
       <module name="springcloud-demo01-consumer01-80" target="11" />
       <module name="springcloud-demo01-eurekaServer" target="11" />

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springCloud-provider-dept-8001" />
+        <module name="springCloud-provider-dept-8002" />
+        <module name="springcloud-consumer-dept-feign" />
+        <module name="springCloud-provider-dept-8003" />
+        <module name="springCloud-consumer-dept-80" />
+        <module name="springCloud-provider-hystrix-dept-8001" />
+        <module name="springCloud-eureka-7003" />
+        <module name="springCloud-api" />
+        <module name="springCloud-eureka-7002" />
+        <module name="springCloud-eureka-7001" />
+        <module name="springcloud-consumer-hystrix-disboard" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springCloud-api" target="11" />
+      <module name="springCloud-consumer-dept-80" target="11" />
+      <module name="springcloud-consumer-dept-feign" target="11" />
+      <module name="springcloud-consumer-hystrix-disboard" target="11" />
+      <module name="springCloud-eureka-7001" target="11" />
+      <module name="springCloud-eureka-7002" target="11" />
+      <module name="springCloud-eureka-7003" target="11" />
+      <module name="springCloud-provider-dept-8001" target="11" />
+      <module name="springCloud-provider-dept-8002" target="11" />
+      <module name="springCloud-provider-dept-8003" target="11" />
+      <module name="springCloud-provider-hystrix-dept-8001" target="11" />
+      <module name="SpringCloudLearn" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

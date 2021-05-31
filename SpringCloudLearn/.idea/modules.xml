@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudLearn.iml" filepath="$PROJECT_DIR$/SpringCloudLearn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springCloud-api/springCloud-api.iml" filepath="$PROJECT_DIR$/springCloud-api/springCloud-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springCloud-consumer-dept-80/springCloud-consumer-dept-80.iml" filepath="$PROJECT_DIR$/springCloud-consumer-dept-80/springCloud-consumer-dept-80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springCloud-eureka-7001/springCloud-eureka-7001.iml" filepath="$PROJECT_DIR$/springCloud-eureka-7001/springCloud-eureka-7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springCloud-eureka-7002/springCloud-eureka-7002.iml" filepath="$PROJECT_DIR$/springCloud-eureka-7002/springCloud-eureka-7002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springCloud-eureka-7003/springCloud-eureka-7003.iml" filepath="$PROJECT_DIR$/springCloud-eureka-7003/springCloud-eureka-7003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springCloud-provider-dept-8001/springCloud-provider-dept-8001.iml" filepath="$PROJECT_DIR$/springCloud-provider-dept-8001/springCloud-provider-dept-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springCloud-provider-dept-8002/springCloud-provider-dept-8002.iml" filepath="$PROJECT_DIR$/springCloud-provider-dept-8002/springCloud-provider-dept-8002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springCloud-provider-dept-8003/springCloud-provider-dept-8003.iml" filepath="$PROJECT_DIR$/springCloud-provider-dept-8003/springCloud-provider-dept-8003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springCloud-provider-hystrix-dept-8001/springCloud-provider-hystrix-dept-8001.iml" filepath="$PROJECT_DIR$/springCloud-provider-hystrix-dept-8001/springCloud-provider-hystrix-dept-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-consumer-dept-feign/springcloud-consumer-dept-feign.iml" filepath="$PROJECT_DIR$/springcloud-consumer-dept-feign/springcloud-consumer-dept-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-consumer-hystrix-disboard/springcloud-consumer-hystrix-disboard.iml" filepath="$PROJECT_DIR$/springcloud-consumer-hystrix-disboard/springcloud-consumer-hystrix-disboard.iml" />
+    </modules>
+  </component>
+</project>
