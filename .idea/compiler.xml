@@ -13,6 +13,7 @@
         <module name="spring-swagger" />
         <module name="dubboZookeeper-client" />
         <module name="springCloud-provider-demo02-8801" />
+        <module name="springcloud-zuul-9527" />
         <module name="springCloud-eureka-7003" />
         <module name="springCloud-eureka-7002" />
         <module name="springboot-shiro" />
@@ -117,6 +118,7 @@
       <module name="springCloud-provider-dept-8002" target="11" />
       <module name="springCloud-provider-dept-8003" target="11" />
       <module name="springCloud-provider-hystrix-dept-8001" target="11" />
+      <module name="springcloud-zuul-9527" target="11" />
       <module name="SpringCloudDemo01" target="11" />
       <module name="SpringCloudLearn" target="11" />
       <module name="SpringCloudLoadTrain04" target="11" />

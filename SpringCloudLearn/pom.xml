@@ -19,6 +19,7 @@
         <module>springcloud-consumer-dept-feign</module>
         <module>springCloud-provider-hystrix-dept-8001</module>
         <module>springcloud-consumer-hystrix-disboard</module>
+        <module>springcloud-zuul-9527</module>
     </modules>
 
     <properties>

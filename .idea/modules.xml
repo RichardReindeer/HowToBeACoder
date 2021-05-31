@@ -56,6 +56,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringCloudDemo01/springcloud-demo-consumer01/springcloud-demo-consumer01.iml" filepath="$PROJECT_DIR$/SpringCloudDemo01/springcloud-demo-consumer01/springcloud-demo-consumer01.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudDemo01/springcloud-demo-eurekaServer-01/springcloud-demo-eurekaServer-01.iml" filepath="$PROJECT_DIR$/SpringCloudDemo01/springcloud-demo-eurekaServer-01/springcloud-demo-eurekaServer-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudDemo01/springcloud-demo-provider-01-/springcloud-demo-provider-01-.iml" filepath="$PROJECT_DIR$/SpringCloudDemo01/springcloud-demo-provider-01-/springcloud-demo-provider-01-.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudLearn/springcloud-zuul-9527/springcloud-zuul-9527.iml" filepath="$PROJECT_DIR$/SpringCloudLearn/springcloud-zuul-9527/springcloud-zuul-9527.iml" />
     </modules>
   </component>
 </project>
