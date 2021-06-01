@@ -8,19 +8,31 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud-demo-eurekaServer-01" />
+        <module name="springCloud-demoAtSchool-consumer01-80" />
         <module name="springboot-09-test" />
-        <module name="springcloud-consumer-dept-feign" />
-        <module name="spring-swagger" />
         <module name="dubboZookeeper-client" />
         <module name="springCloud-provider-demo02-8801" />
+        <module name="springcloud-demo-consumer01" />
+        <module name="springboot-send-demo01" />
+        <module name="springboot-swagger-Demo01" />
+        <module name="springCloud-api-demo01" />
+        <module name="SpringSwaggerDemo" />
+        <module name="springCloud-provider-hystrix-dept-8001" />
+        <module name="HelloShiro" />
+        <module name="provider-server" />
+        <module name="springCloud-provider-demo01-8001" />
+        <module name="NettyLearn" />
+        <module name="springcloud-demo-api" />
+        <module name="SpringMybatisDemo" />
+        <module name="springCloud-demoAtSchool-provider01-8801" />
+        <module name="springcloud-consumer-dept-feign" />
+        <module name="spring-swagger" />
         <module name="springcloud-zuul-9527" />
+        <module name="springCloud-demoAtSchool-eurekaServer02-7002" />
         <module name="springCloud-eureka-7003" />
         <module name="springCloud-eureka-7002" />
         <module name="springboot-shiro" />
         <module name="springCloud-eureka-7001" />
-        <module name="springcloud-demo-consumer01" />
-        <module name="springboot-send-demo01" />
-        <module name="springboot-swagger-Demo01" />
         <module name="springCloud-provider-dept-8001" />
         <module name="springCloud-eureka-demo02-1" />
         <module name="consumer-server" />
@@ -30,6 +42,7 @@
         <module name="springCloud-provider-dept-8003" />
         <module name="springCloud-consumer-demo02-80" />
         <module name="springcloud-demo-provider-01-" />
+        <module name="springCloud-demoAtSchool-api" />
         <module name="springCloud-consumer-dept-80" />
         <module name="springCloud-eureka-demo01" />
         <module name="springboot-shiro-demo04" />
@@ -37,21 +50,14 @@
         <module name="springboot-shiro-demo06" />
         <module name="springboot-shiro-demo05" />
         <module name="springboot-shiro-demo08" />
-        <module name="springCloud-api-demo01" />
         <module name="Springboot-shiro-Demo" />
-        <module name="SpringSwaggerDemo" />
-        <module name="springCloud-provider-hystrix-dept-8001" />
-        <module name="HelloShiro" />
+        <module name="springCloud-demoAtSchool-consumer02-feign" />
         <module name="springCloud-api" />
-        <module name="provider-server" />
         <module name="springcloud-consumer-hystrix-disboard" />
-        <module name="springCloud-provider-demo01-8001" />
+        <module name="springCloud-demoAtSchool-eureksServer01-7001" />
         <module name="springCloud-consumer-demo01-80" />
-        <module name="NettyLearn" />
         <module name="springboot-mail-demo01" />
-        <module name="springcloud-demo-api" />
         <module name="dubboZookeeper-server" />
-        <module name="SpringMybatisDemo" />
         <module name="springboot-shiro-demo02" />
       </profile>
     </annotationProcessing>
@@ -60,7 +66,7 @@
       <module name="dubboZookeeper-client" target="11" />
       <module name="dubboZookeeper-server" target="11" />
       <module name="HelloShiro" target="11" />
-      <module name="NettyLearn" target="1.5" />
+      <module name="NettyLearn" target="11" />
       <module name="provider-server" target="11" />
       <module name="shiro-springBoot" target="11" />
       <module name="shiro-springboot" target="11" />
@@ -105,6 +111,13 @@
       <module name="springcloud-demo04-consumer01-80" target="11" />
       <module name="springcloud-demo04-eurekaServer" target="11" />
       <module name="springcloud-demo04-provider01-8801" target="11" />
+      <module name="springCloud-demoAtSchool" target="11" />
+      <module name="springCloud-demoAtSchool-api" target="11" />
+      <module name="springCloud-demoAtSchool-consumer01-80" target="11" />
+      <module name="springCloud-demoAtSchool-consumer02-feign" target="11" />
+      <module name="springCloud-demoAtSchool-eurekaServer02-7002" target="11" />
+      <module name="springCloud-demoAtSchool-eureksServer01-7001" target="11" />
+      <module name="springCloud-demoAtSchool-provider01-8801" target="11" />
       <module name="springCloud-eureka-7001" target="11" />
       <module name="springCloud-eureka-7002" target="11" />
       <module name="springCloud-eureka-7003" target="11" />
@@ -148,6 +161,7 @@
       <module name="shiro-springboot" options="-parameters" />
       <module name="spring-cloud-demo01-provider02-8802" options="-parameters" />
       <module name="spring-swagger" options="-parameters" />
+      <module name="springCloud-demoAtSchool-consumer02-feign" options="-parameters" />
       <module name="springboot-09-test" options="-parameters" />
       <module name="springboot-mail-demo01" options="-parameters" />
       <module name="springboot-mail-demos" options="-parameters" />

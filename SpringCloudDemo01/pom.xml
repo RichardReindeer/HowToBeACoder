@@ -7,6 +7,7 @@
         <module>springcloud-demo-eurekaServer-01</module>
         <module>springcloud-demo-provider-01-</module>
         <module>springcloud-demo-consumer01</module>
+        <module>springCloud-demoAtSchool-consumer02-feign</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

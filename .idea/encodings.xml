@@ -19,6 +19,7 @@
     <file url="file://$PROJECT_DIR$/Spring-08-Shiro/springboot-shiro-demo08/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-08-Shiro/springboot-shiro/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-08-Shiro/springboot-shiro/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloudDemo01/springCloud-demoAtSchool-consumer02-feign/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloudDemo01/springcloud-demo-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloudDemo01/springcloud-demo-consumer01/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloudDemo01/springcloud-demo-eurekaServer-01/src/main/java" charset="UTF-8" />
@@ -42,7 +43,12 @@
     <file url="file://$PROJECT_DIR$/SpringCloudLearn/springCloud-provider-hystrix-dept-8001/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloudLearn/springcloud-consumer-dept-feign/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloudLearn/springcloud-consumer-dept-feign/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloudLearn/springcloud-consumer-hystrix-disboard/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloudLearn/springcloud-consumer-hystrix-disboard/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloudLearn/springcloud-zuul-9527/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloudLearn/springcloud-zuul-9527/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloudTrain/springCloud-api-demo01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloudTrain/springCloud-api-demo01/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloudTrain/springCloud-consumer-demo01-80/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloudTrain/springCloud-consumer-demo01-80/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloudTrain/springCloud-consumer-demo02-80/src/main/java" charset="UTF-8" />
@@ -57,6 +63,16 @@
     <file url="file://$PROJECT_DIR$/SpringSwaggerDemo/springboot-swagger-Demo01/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringSwaggerDemo/springboot-swagger-demo02/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-swagger/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springCloud-demoAtSchool/springCloud-demoAtSchool-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springCloud-demoAtSchool/springCloud-demoAtSchool-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springCloud-demoAtSchool/springCloud-demoAtSchool-consumer01-80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springCloud-demoAtSchool/springCloud-demoAtSchool-consumer01-80/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springCloud-demoAtSchool/springCloud-demoAtSchool-eurekaServer02-7002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springCloud-demoAtSchool/springCloud-demoAtSchool-eurekaServer02-7002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springCloud-demoAtSchool/springCloud-demoAtSchool-eureksServer01-7001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springCloud-demoAtSchool/springCloud-demoAtSchool-eureksServer01-7001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springCloud-demoAtSchool/springCloud-demoAtSchool-provider01-8801/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springCloud-demoAtSchool/springCloud-demoAtSchool-provider01-8801/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-09-test/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-mail-demos/springboot-mail-demo01/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-mail-demos/springboot-send-demo01/src/main/java" charset="UTF-8" />
