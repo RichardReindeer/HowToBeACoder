@@ -10,8 +10,8 @@
         <module name="springcloud-demo-eurekaServer-01" />
         <module name="springCloud-demoAtSchool-consumer01-80" />
         <module name="springboot-09-test" />
-        <module name="dubboZookeeper-client" />
         <module name="springCloud-provider-demo02-8801" />
+        <module name="dubboZookeeper-client" />
         <module name="springcloud-demo-consumer01" />
         <module name="springboot-send-demo01" />
         <module name="springboot-swagger-Demo01" />
@@ -19,6 +19,7 @@
         <module name="SpringSwaggerDemo" />
         <module name="springCloud-provider-hystrix-dept-8001" />
         <module name="HelloShiro" />
+        <module name="RedisLearn" />
         <module name="provider-server" />
         <module name="springCloud-provider-demo01-8001" />
         <module name="NettyLearn" />
@@ -68,6 +69,7 @@
       <module name="HelloShiro" target="11" />
       <module name="NettyLearn" target="11" />
       <module name="provider-server" target="11" />
+      <module name="RedisLearn" target="11" />
       <module name="shiro-springBoot" target="11" />
       <module name="shiro-springboot" target="11" />
       <module name="Spring-08-Shiro" target="11" />
