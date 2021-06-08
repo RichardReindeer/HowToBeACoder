@@ -11,6 +11,8 @@
       <module fileurl="file://$PROJECT_DIR$/NettyLearn/NettyLearn.iml" filepath="$PROJECT_DIR$/NettyLearn/NettyLearn.iml" />
       <module fileurl="file://$PROJECT_DIR$/RedisLearn/RedisLearn.iml" filepath="$PROJECT_DIR$/RedisLearn/RedisLearn.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-08-Shiro/Spring-08-Shiro.iml" filepath="$PROJECT_DIR$/Spring-08-Shiro/Spring-08-Shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RedisLearn/Spring-RedisTest/Spring-RedisTest.iml" filepath="$PROJECT_DIR$/RedisLearn/Spring-RedisTest/Spring-RedisTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RedisLearn/Spring-redis/Spring-redis.iml" filepath="$PROJECT_DIR$/RedisLearn/Spring-redis/Spring-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudDemo01/SpringCloudDemo01.iml" filepath="$PROJECT_DIR$/SpringCloudDemo01/SpringCloudDemo01.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudLearn/SpringCloudLearn.iml" filepath="$PROJECT_DIR$/SpringCloudLearn/SpringCloudLearn.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudTrain/SpringCloudTrain.iml" filepath="$PROJECT_DIR$/SpringCloudTrain/SpringCloudTrain.iml" />

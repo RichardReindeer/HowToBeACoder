@@ -44,6 +44,8 @@
         <option value="$PROJECT_DIR$/springCloud-demoAtSchool/pom.xml" />
         <option value="$PROJECT_DIR$/springCloud-demoAtSchool/springCloud-demoAtSchool-consumer01-80/pom.xml" />
         <option value="$PROJECT_DIR$/RedisLearn/pom.xml" />
+        <option value="$PROJECT_DIR$/RedisLearn/Spring-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/RedisLearn/Spring-RedisTest/pom.xml" />
       </list>
     </option>
   </component>
