@@ -46,6 +46,7 @@
         <option value="$PROJECT_DIR$/RedisLearn/pom.xml" />
         <option value="$PROJECT_DIR$/RedisLearn/Spring-redis/pom.xml" />
         <option value="$PROJECT_DIR$/RedisLearn/Spring-RedisTest/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMVC-Json/pom.xml" />
       </list>
     </option>
   </component>

@@ -17,6 +17,7 @@
         <module name="springboot-send-demo01" />
         <module name="springboot-swagger-Demo01" />
         <module name="springCloud-api-demo01" />
+        <module name="SpringMVC-Json" />
         <module name="SpringSwaggerDemo" />
         <module name="springCloud-provider-hystrix-dept-8001" />
         <module name="HelloShiro" />
@@ -145,6 +146,7 @@
       <module name="springCloudTrain02" target="11" />
       <module name="SpringCloudTrain02" target="11" />
       <module name="springCloudTrain03" target="11" />
+      <module name="SpringMVC-Json" target="11" />
       <module name="SpringMybatisDemo" target="11" />
       <module name="SpringSwaggerDemo" target="11" />
       <module name="wrapper (1)" target="11" />
