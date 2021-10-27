@@ -23,7 +23,7 @@ import java.util.Date;
 public class User {
     @TableField("name")
     private String username;
-    @TableId(value = "id",type = IdType.AUTO)
+    @TableId(value = "id", type = IdType.AUTO)
     private Long id;
     private String email;
     private Integer age;
@@ -32,6 +32,8 @@ public class User {
     private LocalDateTime createTime;
     @TableField(fill = FieldFill.UPDATE)
     private LocalDateTime updateTime;
+    @TableLogic
+    private Integer deleted;
 
     public String getUsername() {
         return username;
